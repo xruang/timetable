@@ -1,0 +1,2 @@
+﻿initial_total_time_s,optimized_total_time_s,initial_net_energy_kwh,optimized_net_energy_kwh,energy_saving_kwh,energy_saving_percent,initial_feasible_sections,optimized_feasible_sections,initial_regime_switches,optimized_regime_switches,initial_traction_brake_transitions,optimized_traction_brake_transitions
+3136.0,3136.0,484.31732162050605,484.31732162050605,0.0,0.0,19,19,152,152,31,31

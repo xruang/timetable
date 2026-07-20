@@ -1,0 +1,9 @@
+﻿train_index,after_section_index,after_section_name,station_name,dwell_overrun_s
+2,11,JK-ZLX,ZLX,10.0
+2,12,ZLX-ZL,ZL,10.0
+2,15,KB-FG,FG,10.0
+2,17,ZC-ST,ST,10.0
+3,1,THP-TD,TD,10.0
+3,4,DGNL-THSC,THSC,10.0
+3,6,SZL-SC,SC,10.0
+3,18,ST-ZG,ZG,10.0

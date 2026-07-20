@@ -1,0 +1,2 @@
+﻿train_count,upper_control_mode,initial_headway_s,initial_grid_energy_kwh,optimized_grid_energy_kwh,grid_energy_saving_kwh,initial_matched_regenerative_kwh,optimized_matched_regenerative_kwh,optimized_regenerative_utilization,initial_objective,optimized_objective
+4,departure,480.0,2167.7767710956605,2153.594787612695,14.181983482965279,381.05611866337574,395.9845223296546,0.6343638391610147,2332.5318675750477,2318.3498840920824

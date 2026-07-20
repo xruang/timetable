@@ -1,0 +1,2 @@
+﻿train_name,episodes,moving_average_window,convergence_window,initial_reward_per_km_moving_average,final_reward_per_km_moving_average,final_window_std,final_window_slope
+Shared SAC lower policy,6000,20,50,-10.423032701686305,-10.535243366615811,0.4930097456239883,-0.026238747210638323

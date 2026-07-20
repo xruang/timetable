@@ -1,0 +1,3 @@
+﻿strategy,section_count,strict_feasible_count,relaxed_feasible_count,total_target_time_s,total_actual_time_s,total_abs_timetable_error_s,traction_kwh,regenerative_kwh,net_energy_kwh,regime_switches,traction_coast_transitions,traction_brake_transitions,short_dwell_transitions,force_jump_index,speed_regulation_steps
+baseline,19,19,19,3136.0,3138.2762915224394,2.419148673269504,858.5336109633561,270.240833787185,588.2927771761711,67.0,40.0,21.0,36.0,70.08847535846787,3713.0
+real_data_policy,19,17,17,3136.0,3154.1443909917684,18.144390991768162,951.3662527208103,320.28983224564,631.0764204751702,73.0,46.0,21.0,63.0,61.46931930806189,3115.0

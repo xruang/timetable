@@ -1,0 +1,316 @@
+"""Hierarchical four-train timetable optimization experiment entrypoint.
+
+The detailed responsibilities live in focused modules:
+line_profile.py, train_model.py, lower_control.py, mappo.py and visualization.py.
+"""
+
+from __future__ import annotations
+
+import argparse
+import random
+from dataclasses import asdict
+from pathlib import Path
+
+import numpy as np
+import torch
+
+try:
+    from .config import DEFAULT_LINE_DIR, INITIAL_TIMETABLE
+    from .line_profile import LineProfile
+    from .lower_control import (
+        DQNAgent,
+        DRIVING_SMOOTHNESS,
+        LowerSectionEnvironment,
+        PRIMARY_ARRIVAL_TOLERANCE_S,
+        RELAXED_ARRIVAL_TOLERANCE_S,
+        build_response_tables,
+        train_lower_agents,
+        validate_initial_timetable,
+    )
+    from .mappo import (
+        IndependentActorMAPPOAgent,
+        MultiTrainTimetableEnvironment,
+        save_multi_train_checkpoint,
+        train_multi_train_mappo,
+    )
+    from .train_model import TrainConfig, TrainDynamics, configured_train_configs
+    from .visualization import (
+        export_mappo_visualizations,
+        export_validation_visualizations,
+    )
+except ImportError:
+    from config import DEFAULT_LINE_DIR, INITIAL_TIMETABLE
+    from line_profile import LineProfile
+    from lower_control import (
+        DQNAgent,
+        DRIVING_SMOOTHNESS,
+        LowerSectionEnvironment,
+        PRIMARY_ARRIVAL_TOLERANCE_S,
+        RELAXED_ARRIVAL_TOLERANCE_S,
+        build_response_tables,
+        train_lower_agents,
+        validate_initial_timetable,
+    )
+    from mappo import (
+        IndependentActorMAPPOAgent,
+        MultiTrainTimetableEnvironment,
+        save_multi_train_checkpoint,
+        train_multi_train_mappo,
+    )
+    from train_model import TrainConfig, TrainDynamics, configured_train_configs
+    from visualization import (
+        export_mappo_visualizations,
+        export_validation_visualizations,
+    )
+
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+
+
+def build_parser() -> argparse.ArgumentParser:
+    parser = argparse.ArgumentParser(
+        description="Hierarchical MARL timetable optimization with lower-level eco-control."
+    )
+    parser.add_argument(
+        "--mode",
+        choices=("validate", "train"),
+        default="validate",
+        help="Validate the route model or run lower-level DQN plus upper-level MAPPO.",
+    )
+    parser.add_argument("--line-dir", type=Path, default=DEFAULT_LINE_DIR)
+    parser.add_argument("--output-dir", type=Path, default=SCRIPT_DIR / "results")
+    parser.add_argument(
+        "--checkpoint",
+        type=Path,
+        default=SCRIPT_DIR / "hierarchical_mappo_checkpoint.pt",
+    )
+    parser.add_argument("--seed", type=int, default=7)
+    parser.add_argument(
+        "--lower-episodes",
+        type=int,
+        default=300,
+        help="Lower-level DQN training episodes per heterogeneous train.",
+    )
+    parser.add_argument("--upper-episodes", type=int, default=1000)
+    parser.add_argument("--upper-steps", type=int, default=24)
+    parser.add_argument("--response-span", type=int, default=10)
+    parser.add_argument("--response-step", type=int, default=2)
+    parser.add_argument("--train-count", type=int, default=4)
+    parser.add_argument(
+        "--initial-headway",
+        type=int,
+        default=480,
+        help="Initial train departure headway in seconds (default: 8 minutes).",
+    )
+    parser.add_argument("--minimum-headway", type=int, default=120)
+    parser.add_argument("--departure-span", type=int, default=60)
+    parser.add_argument("--departure-quantum", type=int, default=5)
+    parser.add_argument(
+        "--upper-control-mode",
+        choices=("departure", "joint"),
+        default="departure",
+        help="Optimize departure times only by default; use joint for departure and interstation-time optimization.",
+    )
+    parser.add_argument(
+        "--upper-algorithm",
+        choices=("ppo",),
+        default="ppo",
+        help="MAPPO uses independent PPO actors and a centralized critic.",
+    )
+    return parser
+
+
+def seed_everything(seed: int) -> None:
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+
+
+def build_route_and_lower_environments(
+    line_dir: Path,
+    train_count: int,
+) -> tuple[
+    LineProfile,
+    list[TrainConfig],
+    list[list[LowerSectionEnvironment]],
+]:
+    profile = LineProfile.from_excel(
+        line_dir / "slope.xlsx",
+        line_dir / "curvature.xlsx",
+    )
+    profile.print_summary()
+    train_configs = configured_train_configs(train_count)
+    print("Configured heterogeneous trains")
+    for config in train_configs:
+        print(
+            f"  {config.name}: mass={config.mass_kg / 1000.0:.1f}t "
+            f"max_force={config.max_traction_force_n / 1000.0:.1f}kN "
+            f"max_power={config.max_traction_power_w / 1000.0:.1f}kW"
+        )
+    print("Configured driving-smoothness soft constraints")
+    print(
+        f"  preferred traction/coast hold: "
+        f"{DRIVING_SMOOTHNESS.preferred_traction_hold_s:.0f}/"
+        f"{DRIVING_SMOOTHNESS.preferred_coast_hold_s:.0f}s"
+    )
+    print(
+        f"  heuristic release/re-entry margin: "
+        f"{DRIVING_SMOOTHNESS.heuristic_traction_release_margin_mps:.1f}/"
+        f"{DRIVING_SMOOTHNESS.heuristic_coast_reentry_margin_mps:.1f}m/s"
+    )
+    print(
+        f"  arrival tolerance: prefer +/-{PRIMARY_ARRIVAL_TOLERANCE_S:.1f}s, "
+        f"relax to +/-{RELAXED_ARRIVAL_TOLERANCE_S:.1f}s only if necessary"
+    )
+    environments_by_train = [
+        [
+            LowerSectionEnvironment(section, TrainDynamics(config))
+            for section in profile.sections
+        ]
+        for config in train_configs
+    ]
+    return profile, train_configs, environments_by_train
+
+
+def run_validation(
+    profile: LineProfile,
+    train_configs: list[TrainConfig],
+    environments_by_train: list[list[LowerSectionEnvironment]],
+    output_dir: Path,
+) -> None:
+    for train_idx, (config, environments) in enumerate(
+        zip(train_configs, environments_by_train)
+    ):
+        print(f"\nValidating {config.name}")
+        results = validate_initial_timetable(environments, INITIAL_TIMETABLE)
+        feasible_count = sum(result.feasible for result in results)
+        strict_count = sum(result.strict_timetable_feasible for result in results)
+        relaxed_only_count = sum(
+            result.relaxed_timetable_feasible and not result.strict_timetable_feasible
+            for result in results
+        )
+        net_energy = sum(result.net_energy_kwh for result in results)
+        print(
+            f"{config.name} validation: {feasible_count}/{len(results)} "
+            f"sections feasible ({strict_count} strict, {relaxed_only_count} relaxed), "
+            f"net energy {net_energy:.2f} kWh."
+        )
+        if train_idx == 0:
+            export_validation_visualizations(profile, results, output_dir)
+    print(f"Validation figures written to: {output_dir.resolve()}")
+
+
+def run_training(
+    args: argparse.Namespace,
+    profile: LineProfile,
+    train_configs: list[TrainConfig],
+    environments_by_train: list[list[LowerSectionEnvironment]],
+) -> None:
+    lower_agents: list[DQNAgent] = []
+    lower_history = []
+    response_tables_by_train = []
+    for config, environments in zip(train_configs, environments_by_train):
+        lower_agent = DQNAgent(
+            state_dim=LowerSectionEnvironment.STATE_DIM,
+            action_dim=LowerSectionEnvironment.ACTION_DIM,
+        )
+        lower_agents.append(lower_agent)
+        lower_history.extend(
+            train_lower_agents(
+                environments,
+                lower_agent,
+                INITIAL_TIMETABLE,
+                episodes=args.lower_episodes,
+                target_span_s=args.response_span,
+                train_name=config.name,
+            )
+        )
+        response_tables_by_train.append(
+            build_response_tables(
+                environments,
+                INITIAL_TIMETABLE,
+                time_span_s=args.response_span,
+                time_step_s=args.response_step,
+                learned_controller=lower_agent,
+                train_name=config.name,
+            )
+        )
+
+    upper_environment = MultiTrainTimetableEnvironment(
+        initial_timetable=INITIAL_TIMETABLE,
+        response_tables_by_train=response_tables_by_train,
+        train_count=args.train_count,
+        initial_headway_s=args.initial_headway,
+        minimum_headway_s=args.minimum_headway,
+        time_span_s=args.response_span,
+        time_quantum_s=args.response_step,
+        departure_span_s=args.departure_span,
+        departure_quantum_s=args.departure_quantum,
+        control_mode=args.upper_control_mode,
+        max_steps=args.upper_steps,
+    )
+    upper_agent = IndependentActorMAPPOAgent(
+        train_count=upper_environment.train_count,
+        observation_dim=upper_environment.local_observation_dim,
+        action_dim=upper_environment.action_dim,
+        central_state_dim=upper_environment.central_state_dim,
+        active_agent_mask=upper_environment.active_agent_mask,
+    )
+    training_result, upper_history = train_multi_train_mappo(
+        upper_environment,
+        upper_agent,
+        episodes=args.upper_episodes,
+    )
+
+    save_multi_train_checkpoint(
+        args.checkpoint,
+        lower_agents,
+        upper_agent,
+        training_result,
+        [asdict(config) for config in train_configs],
+        asdict(DRIVING_SMOOTHNESS),
+    )
+    export_mappo_visualizations(
+        profile=profile,
+        environments_by_train=environments_by_train,
+        lower_controllers=lower_agents,
+        tables_by_train=response_tables_by_train,
+        upper_environment=upper_environment,
+        result=training_result,
+        lower_history=lower_history,
+        upper_history=upper_history,
+        output_dir=args.output_dir,
+    )
+
+    print("\nBest four-train coordinated timetable:")
+    for train_index, timetable in enumerate(training_result.timetables_s, start=1):
+        values = ", ".join(str(int(round(value))) for value in timetable)
+        print(f"  Train {train_index}: [{values}]")
+    print(
+        "Stable departure times: "
+        + ", ".join(f"{value / 60.0:.2f} min" for value in training_result.departure_times_s)
+    )
+    print(
+        f"Grid energy: {training_result.grid_energy_kwh:.2f} kWh, "
+        f"matched regenerative energy: {training_result.matched_regenerative_kwh:.2f} kWh, "
+        f"regenerative utilization: {training_result.regenerative_utilization * 100:.2f}%."
+    )
+    print(f"Checkpoint written to: {args.checkpoint.resolve()}")
+    print(f"Training figures and CSV files written to: {args.output_dir.resolve()}")
+
+
+def main() -> None:
+    args = build_parser().parse_args()
+    seed_everything(args.seed)
+    profile, train_configs, environments_by_train = build_route_and_lower_environments(
+        args.line_dir,
+        args.train_count,
+    )
+    if args.mode == "validate":
+        run_validation(profile, train_configs, environments_by_train, args.output_dir)
+        return
+    run_training(args, profile, train_configs, environments_by_train)
+
+
+if __name__ == "__main__":
+    main()
