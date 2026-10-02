@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# New experiments are reproducible from configs; generated artifacts stay local.
+results/
+server_logs/
+SAC_server_bundle.zip
+.venv/

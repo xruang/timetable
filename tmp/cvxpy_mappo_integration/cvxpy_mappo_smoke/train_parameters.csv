@@ -1,0 +1,3 @@
+﻿name,mass_kg,motor_car_mass_kg,trailer_car_mass_kg,max_traction_force_n,max_traction_power_w,max_braking_force_n,traction_efficiency,regenerative_efficiency,gravity_mps2,davis_a,davis_b,davis_c,curve_resistance_coefficient,dt_s,safety_braking_ratio,service_braking_ratio,terminal_braking_margin_s,max_acceleration_mps2,max_deceleration_mps2,direction
+Up Train 1,235000.0,,,260000.0,2770000.0,280000.0,0.9,0.6,9.81,3198.8670000000006,41.75339,0.6566,600.0,0.5,0.65,0.65,1.5,1.0,1.0,up
+Down Train 1,240000.0,,,265000.0,2850000.0,280000.0,0.9,0.6,9.81,3266.9280000000003,42.64176,0.6566,600.0,0.5,0.65,0.65,1.5,1.0,1.0,down

@@ -1,0 +1,85 @@
+{"kind":"deck","id":"pr/xd1f35","name":"Deck"}
+{"kind":"layout","layoutId":"e4bb006e-760b-4f08-b921-41e119d3fdcb","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"4884fd17-f1d5-4e01-86a8-b01588bbe2f5","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/nddyvf","slide":1,"title":"上层：多列车时刻表规划（MAPPO）","textShapes":29}
+{"kind":"shape","id":"sh/90zuxoba","slide":1,"name":"upper-MAPPO","bbox":[245,40,1110,226]}
+{"kind":"shape","id":"sh/mx8bmtsj","slide":1,"name":"upper-header","bbox":[249,44,1102,66]}
+{"kind":"textbox","id":"sh/nyhcvet4","slide":1,"text":"上层：多列车时刻表规划（MAPPO）","textPreview":"上层：多列车时刻表规划（MAPPO）","textChars":18,"textLines":1,"bbox":[285,48,1030,56]}
+{"kind":"shape","id":"sh/0v6tkjad","slide":1,"name":"上层观测状态","bbox":[278,126,354,112]}
+{"kind":"shape","id":"sh/1wzatoby","slide":1,"name":"上层观测状态-header","bbox":[280,128,350,42]}
+{"kind":"textbox","id":"sh/etobi9sn","slide":1,"name":"上层观测状态-title","text":"上层观测状态","textPreview":"上层观测状态","textChars":6,"textLines":1,"bbox":[285,128,340,42]}
+{"kind":"textbox","id":"sh/zuxsrets","slide":1,"name":"上层观测状态-body","text":"当前到发时刻、前后车间隔\n供电分区与能量状态\n上一站间运行反馈","textPreview":"当前到发时刻、前后车间隔 | 供电分区与能量状态 | 上一站间运行反馈","textChars":31,"textLines":3,"bbox":[288,173,334,60]}
+{"kind":"shape","id":"sh/cr6tgzah","slide":1,"name":"MAPPO决策模型","bbox":[675,126,250,112]}
+{"kind":"shape","id":"sh/dsfap4b2","slide":1,"name":"MAPPO决策模型-header","bbox":[677,128,246,42]}
+{"kind":"textbox","id":"sh/5k7u1crm","slide":1,"name":"MAPPO决策模型-title","text":"MAPPO决策模型","textPreview":"MAPPO决策模型","textChars":9,"textLines":1,"bbox":[682,128,236,42]}
+{"kind":"textbox","id":"sh/kjet87a1","slide":1,"name":"MAPPO决策模型-body","text":"分散 Actor\n集中 Critic","textPreview":"分散 Actor | 集中 Critic","textChars":18,"textLines":2,"bbox":[685,173,230,60]}
+{"kind":"shape","id":"sh/ji5sz29g","slide":1,"name":"时刻表调整动作","bbox":[968,126,350,112]}
+{"kind":"shape","id":"sh/ihwb6xsb","slide":1,"name":"时刻表调整动作-header","bbox":[970,128,346,42]}
+{"kind":"textbox","id":"sh/xgnaxsrq","slide":1,"name":"时刻表调整动作-title","text":"时刻表调整动作","textPreview":"时刻表调整动作","textChars":7,"textLines":1,"bbox":[975,128,336,42]}
+{"kind":"textbox","id":"sh/wfet47a5","slide":1,"name":"时刻表调整动作-body","text":"停站时间调整\n形成新的发车时刻","textPreview":"停站时间调整 | 形成新的发车时刻","textChars":15,"textLines":2,"bbox":[978,173,330,60]}
+{"kind":"shape","id":"sh/ve5sv29k","slide":1,"bbox":[632,182,43,0]}
+{"kind":"shape","id":"sh/atwb2xsz","slide":1,"bbox":[925,182,43,0]}
+{"kind":"shape","id":"sh/9s3atsre","slide":1,"name":"upper-state-to-model","bbox":[637,168,32,24]}
+{"kind":"shape","id":"sh/8rut0nat","slide":1,"name":"upper-model-to-action","bbox":[930,168,32,24]}
+{"kind":"shape","id":"sh/0vytgnip","slide":1,"name":"dispatch-arrow","bbox":[430,282,58,156]}
+{"kind":"shape","id":"sh/1w7upsza","slide":1,"name":"dispatch-label","bbox":[498,306,326,92]}
+{"kind":"textbox","id":"sh/etgbex0z","slide":1,"text":"下发\n目标站间运行时间、停站时间与发车约束","textPreview":"下发 | 目标站间运行时间、停站时间与发车约束","textChars":21,"textLines":2,"bbox":[510,313,302,77]}
+{"kind":"shape","id":"sh/zupcnih4","slide":1,"name":"feedback-arrow","bbox":[882,286,58,152]}
+{"kind":"shape","id":"sh/c7ytcnit","slide":1,"name":"feedback-label","bbox":[950,306,334,92]}
+{"kind":"textbox","id":"sh/d87alsze","slide":1,"text":"反馈\n实际运行时间、牵引/再生能量、可行性与安全指标","textPreview":"反馈 | 实际运行时间、牵引/再生能量、可行性与安全指标","textChars":26,"textLines":2,"bbox":[962,313,310,77]}
+{"kind":"shape","id":"sh/q5wbad0n","slide":1,"name":"lower-SAC","bbox":[220,450,1160,400]}
+{"kind":"shape","id":"sh/r65sjih8","slide":1,"name":"lower-header","bbox":[224,454,1152,68]}
+{"kind":"textbox","id":"sh/w3ito7ix","slide":1,"text":"下层：共享 SAC 站间驾驶控制","textPreview":"下层：共享 SAC 站间驾驶控制","textChars":16,"textLines":1,"bbox":[260,458,1080,58]}
+{"kind":"shape","id":"sh/x4ruxczi","slide":1,"name":"线路与列车环境","bbox":[246,550,204,166]}
+{"kind":"shape","id":"sh/7udo3a5w","slide":1,"name":"线路与列车环境-header","bbox":[248,552,200,44]}
+{"kind":"textbox","id":"sh/694na5ob","slide":1,"name":"线路与列车环境-title","text":"线路与列车环境","textPreview":"线路与列车环境","textChars":7,"textLines":1,"bbox":[253,552,190,44]}
+{"kind":"textbox","id":"sh/twf65kn2","slide":1,"name":"线路与列车环境-body","text":"坡度、曲线、限速\n列车质量\n牵引/制动特性","textPreview":"坡度、曲线、限速 | 列车质量 | 牵引/制动特性","textChars":21,"textLines":3,"bbox":[256,599,184,112]}
+{"kind":"shape","id":"sh/sv65cf6h","slide":1,"name":"状态空间","bbox":[474,550,205,166]}
+{"kind":"shape","id":"sh/fyxo7a58","slide":1,"name":"状态空间-header","bbox":[476,552,201,44]}
+{"kind":"textbox","id":"sh/uxone5on","slide":1,"name":"状态空间-title","text":"状态空间","textPreview":"状态空间","textChars":4,"textLines":1,"bbox":[481,552,191,44]}
+{"kind":"textbox","id":"sh/h0f69kny","slide":1,"name":"状态空间-body","text":"速度、运行时间、位置\n上一时刻执行控制力\n质量、所处站间","textPreview":"速度、运行时间、位置 | 上一时刻执行控制力 | 质量、所处站间","textChars":28,"textLines":3,"bbox":[484,599,185,112]}
+{"kind":"shape","id":"sh/gz65gf6d","slide":1,"name":"SAC驾驶策略","bbox":[703,550,222,166]}
+{"kind":"shape","id":"sh/v2t4vq5o","slide":1,"name":"SAC驾驶策略-header","bbox":[705,552,218,44]}
+{"kind":"textbox","id":"sh/a1kn2lo3","slide":1,"name":"SAC驾驶策略-title","text":"SAC驾驶策略","textPreview":"SAC驾驶策略","textChars":7,"textLines":1,"bbox":[710,552,208,44]}
+{"kind":"textbox","id":"sh/mlonilwz","slide":1,"name":"SAC驾驶策略-body","text":"Actor\n双 Critic\n经验回放池","textPreview":"Actor | 双 Critic | 经验回放池","textChars":20,"textLines":3,"bbox":[713,599,202,112]}
+{"kind":"shape","id":"sh/nmxobqdk","slide":1,"name":"连续控制动作","bbox":[949,550,172,166]}
+{"kind":"shape","id":"sh/on65kve5","slide":1,"name":"连续控制动作-header","bbox":[951,552,168,44]}
+{"kind":"textbox","id":"sh/9oz6d0vq","slide":1,"name":"连续控制动作-title","text":"连续控制动作","textPreview":"连续控制动作","textChars":6,"textLines":1,"bbox":[956,552,158,44]}
+{"kind":"textbox","id":"sh/ap8nm5wb","slide":1,"name":"连续控制动作-body","text":"牵引 / 惰行 /\n制动力比例","textPreview":"牵引 / 惰行 / | 制动力比例","textChars":15,"textLines":2,"bbox":[959,599,152,112]}
+{"kind":"shape","id":"sh/bahofadw","slide":1,"name":"安全执行层","bbox":[1145,550,208,166]}
+{"kind":"shape","id":"sh/wbq5ove1","slide":1,"name":"安全执行层-header","bbox":[1147,552,204,44]}
+{"kind":"textbox","id":"sh/xcz6h0vm","slide":1,"name":"安全执行层-title","text":"安全执行层","textPreview":"安全执行层","textChars":5,"textLines":1,"bbox":[1152,552,194,44]}
+{"kind":"textbox","id":"sh/yd8nq5w7","slide":1,"name":"安全执行层-body","text":"牵引/制动力、功率\n加速度与限速约束\n终点停车保护","textPreview":"牵引/制动力、功率 | 加速度与限速约束 | 终点停车保护","textChars":25,"textLines":3,"bbox":[1155,599,188,112]}
+{"kind":"shape","id":"sh/jehojads","slide":1,"bbox":[450,633,24,0]}
+{"kind":"shape","id":"sh/t83qp4fu","slide":1,"bbox":[679,633,24,0]}
+{"kind":"shape","id":"sh/87u9gzy9","slide":1,"bbox":[925,633,24,0]}
+{"kind":"shape","id":"sh/7618nux4","slide":1,"bbox":[1121,633,24,0]}
+{"kind":"shape","id":"sh/65s7e9gj","slide":1,"name":"lower-env-to-state","bbox":[454,618,16,26]}
+{"kind":"shape","id":"sh/hc3qtof6","slide":1,"name":"lower-state-to-policy","bbox":[683,618,16,26]}
+{"kind":"shape","id":"sh/gbu9kjyl","slide":1,"name":"lower-policy-to-action","bbox":[929,618,16,26]}
+{"kind":"shape","id":"sh/val8rex0","slide":1,"name":"lower-action-to-safety","bbox":[1125,618,16,26]}
+{"kind":"shape","id":"sh/u9cri9gf","slide":1,"name":"train-dynamics","bbox":[485,752,590,72]}
+{"kind":"textbox","id":"sh/p0nqxof2","slide":1,"text":"列车纵向动力学模型","textPreview":"列车纵向动力学模型","textChars":9,"textLines":1,"bbox":[500,756,560,30]}
+{"kind":"textbox","id":"sh/4fe9ojyh","slide":1,"text":"牵引/制动力 · Davis阻力 · 坡度阻力 · 曲线阻力","textPreview":"牵引/制动力 · Davis阻力 · 坡度阻力 · 曲线阻力","textChars":30,"textLines":1,"bbox":[500,784,560,32]}
+{"kind":"shape","id":"sh/ovm10ra5","slide":1,"bbox":[1075,716,174,72]}
+{"kind":"shape","id":"sh/9wf29wrq","slide":1,"bbox":[576.5,716,203.5,36]}
+{"kind":"shape","id":"sh/mt4jyhsz","slide":1,"bbox":[348,716,137,72]}
+{"kind":"shape","id":"sh/nudk7m9k","slide":1,"name":"foundation-data","bbox":[10,315,196,510]}
+{"kind":"shape","id":"sh/wj614bq1","slide":1,"name":"foundation-header","bbox":[12,317,192,54]}
+{"kind":"textbox","id":"sh/xkf2dgrm","slide":1,"text":"基础数据","textPreview":"基础数据","textChars":4,"textLines":1,"bbox":[20,320,176,48]}
+{"kind":"textbox","id":"sh/axoj21sv","slide":1,"name":"foundation-body","text":"既有时刻表与运行数据\n\n线路坡度、曲线、限速\n\n列车质量与牵引/制动特性","textPreview":"既有时刻表与运行数据 |  | 线路坡度、曲线、限速 |  | 列车质量与牵引/制动特性","textChars":36,"textLines":5,"bbox":[24,392,168,205]}
+{"kind":"shape","id":"sh/bixkb69g","slide":1,"name":"identified-resistance","bbox":[23,708,170,92]}
+{"kind":"textbox","id":"sh/cn2187ax","slide":1,"text":"阻力参数识别结果","textPreview":"阻力参数识别结果","textChars":8,"textLines":1,"bbox":[30,714,156,35]}
+{"kind":"textbox","id":"sh/dobi1cri","slide":1,"text":"Davis A、B、C","textPreview":"Davis A、B、C","textChars":11,"textLines":1,"bbox":[30,748,156,42]}
+{"kind":"shape","id":"sh/vi147at0","slide":1,"name":"优化结果","bbox":[1394,330,194,260]}
+{"kind":"shape","id":"sh/uhsne5cf","slide":1,"name":"优化结果-header","bbox":[1396,332,190,52]}
+{"kind":"textbox","id":"sh/hkjm9kbq","slide":1,"name":"优化结果-title","text":"优化结果","textPreview":"优化结果","textChars":4,"textLines":1,"bbox":[1401,332,180,52]}
+{"kind":"textbox","id":"sh/gja5gfal","slide":1,"name":"优化结果-body","text":"优化时刻表\n（发车时间）\n\n牵引能耗\n\n再生制动利用率","textPreview":"优化时刻表 | （发车时间） |  | 牵引能耗 |  | 再生制动利用率","textChars":27,"textLines":6,"bbox":[1404,387,174,198]}
+{"kind":"shape","id":"sh/7eh43ato","slide":1,"bbox":[108,153,137,162]}
+{"kind":"shape","id":"sh/6d8na5c3","slide":1,"bbox":[206,570,40,63]}
+{"kind":"shape","id":"sh/tgjm50bu","slide":1,"bbox":[193,754,292,34]}
+{"kind":"textbox","id":"sh/8fa5cfu9","slide":1,"text":"识别参数输入动力学模型","textPreview":"识别参数输入动力学模型","textChars":11,"textLines":1,"bbox":[214,728,252,34]}
+{"kind":"shape","id":"sh/jqh4zqts","slide":1,"name":"identified-parameters-to-dynamics","bbox":[194,771,287,20]}
+{"kind":"shape","id":"sh/yp836lc7","slide":1,"bbox":[1355,153,136,177]}
+{"kind":"shape","id":"sh/atcnm5k3","slide":1,"bbox":[1075,590,416,198]}
+{"kind":"notes","id":"nt/nddyvf","slide":1,"text":"新版结构图依据当前课题实现与用户确认内容重绘。上层采用状态、MAPPO模型、动作的统一层级；下层删除高斯采样等训练细节；阻力参数识别结果作为列车动力学模型输入。所有模块、文字和箭头均为可编辑原生PPT对象。"}

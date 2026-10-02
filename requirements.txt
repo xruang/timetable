@@ -1,0 +1,6 @@
+# PyTorch is installed separately because its wheel must match the server GPU stack.
+numpy==1.26.4
+matplotlib==3.9.4
+openpyxl==3.1.5
+cvxpy==1.6.5
+clarabel==0.11.1

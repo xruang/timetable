@@ -1,0 +1,3003 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/72vucd",
+    "id": "72vucd",
+    "slide": 1,
+    "layoutId": "aa5701d4-f4d0-4446-89de-623888f23b4f",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "76cd0329-dad3-405c-a3c4-60d7eaaf3fe9",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F8FAFC",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "aa5701d4-f4d0-4446-89de-623888f23b4f",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "76cd0329-dad3-405c-a3c4-60d7eaaf3fe9",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "76cd0329-dad3-405c-a3c4-60d7eaaf3fe9",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/by5cnulw",
+      "id": "1",
+      "name": "upper-MAPPO",
+      "bbox": [
+        260,
+        52,
+        1080,
+        220
+      ],
+      "geometry": "roundRect",
+      "lineColor": "#1368AA",
+      "lineWidth": 4
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wzedwzmh",
+      "id": "2",
+      "name": "upper-header",
+      "bbox": [
+        264,
+        56,
+        1072,
+        66
+      ],
+      "geometry": "rect",
+      "fillColor": "#D5ECFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x0nup432",
+      "id": "3",
+      "bbox": [
+        300,
+        60,
+        1000,
+        56
+      ],
+      "geometry": "rect",
+      "text": "上层：多列车时刻表规划（MAPPO）",
+      "textPreview": "上层：多列车时刻表规划（MAPPO）",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 34,
+        "typeface": "Microsoft YaHei",
+        "color": "#0B2A53",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "上层：多列车时刻表规划（MAPPO）"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "上层：多列车时刻表规划（MAPPO）",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "上层：多列车时刻表规划（MAPPO）",
+              "fontSize": 34,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m9cvq54f",
+      "id": "4",
+      "name": "多列车智能体",
+      "bbox": [
+        292,
+        137,
+        286,
+        104
+      ],
+      "geometry": "roundRect",
+      "lineColor": "#1368AA",
+      "lineWidth": 2
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nalcjal0",
+      "id": "5",
+      "name": "多列车智能体-header",
+      "bbox": [
+        294,
+        139,
+        282,
+        44
+      ],
+      "geometry": "rect",
+      "fillColor": "#D5ECFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/obudsfml",
+      "id": "6",
+      "name": "多列车智能体-title",
+      "bbox": [
+        299,
+        139,
+        272,
+        44
+      ],
+      "geometry": "rect",
+      "text": "多列车智能体",
+      "textPreview": "多列车智能体",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 22,
+        "typeface": "Microsoft YaHei",
+        "color": "#0B2A53",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "多列车智能体"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "多列车智能体",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "多列车智能体",
+              "fontSize": 22,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9w3ulk36",
+      "id": "7",
+      "name": "多列车智能体-body",
+      "bbox": [
+        304,
+        186,
+        262,
+        50
+      ],
+      "geometry": "rect",
+      "text": "独立 Actor\n集中 Critic",
+      "textPreview": "独立 Actor | 集中 Critic",
+      "resolvedFontSize": 16.67,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#0B2A53",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.93,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "独立 Actor"
+          },
+          {
+            "index": 2,
+            "text": "集中 Critic"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "独立 Actor",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "独立 Actor",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "集中 Critic",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "集中 Critic",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e5svm54j",
+      "id": "8",
+      "name": "时刻表状态",
+      "bbox": [
+        605,
+        137,
+        360,
+        104
+      ],
+      "geometry": "roundRect",
+      "lineColor": "#1368AA",
+      "lineWidth": 2
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z6lcfal4",
+      "id": "9",
+      "name": "时刻表状态-header",
+      "bbox": [
+        607,
+        139,
+        356,
+        44
+      ],
+      "geometry": "rect",
+      "fillColor": "#D5ECFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7ah8raxs",
+      "id": "10",
+      "name": "时刻表状态-title",
+      "bbox": [
+        612,
+        139,
+        346,
+        44
+      ],
+      "geometry": "rect",
+      "text": "时刻表状态",
+      "textPreview": "时刻表状态",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 22,
+        "typeface": "Microsoft YaHei",
+        "color": "#0B2A53",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "时刻表状态"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "时刻表状态",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "时刻表状态",
+              "fontSize": 22,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/69o7y5w7",
+      "id": "11",
+      "name": "时刻表状态-body",
+      "bbox": [
+        617,
+        186,
+        336,
+        50
+      ],
+      "geometry": "rect",
+      "text": "发车 / 到达 / 追踪间隔 / 供电分区",
+      "textPreview": "发车 / 到达 / 追踪间隔 / 供电分区",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#0B2A53",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "发车 / 到达 / 追踪间隔 / 供电分区"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "发车 / 到达 / 追踪间隔 / 供电分区",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "发车 / 到达 / 追踪间隔 / 供电分区",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/twzqtkfi",
+      "id": "12",
+      "name": "上层动作",
+      "bbox": [
+        990,
+        137,
+        320,
+        104
+      ],
+      "geometry": "roundRect",
+      "lineColor": "#1368AA",
+      "lineWidth": 2
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/svqp0fed",
+      "id": "13",
+      "name": "上层动作-header",
+      "bbox": [
+        992,
+        139,
+        316,
+        44
+      ],
+      "geometry": "rect",
+      "fillColor": "#D5ECFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fyh8vuxo",
+      "id": "14",
+      "name": "上层动作-title",
+      "bbox": [
+        997,
+        139,
+        306,
+        44
+      ],
+      "geometry": "rect",
+      "text": "上层动作",
+      "textPreview": "上层动作",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 22,
+        "typeface": "Microsoft YaHei",
+        "color": "#0B2A53",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "上层动作"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "上层动作",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "上层动作",
+              "fontSize": 22,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ux872pw3",
+      "id": "15",
+      "name": "上层动作-body",
+      "bbox": [
+        1002,
+        186,
+        296,
+        50
+      ],
+      "geometry": "rect",
+      "text": "站间运行时间调整\n停站时间调整",
+      "textPreview": "站间运行时间调整 | 停站时间调整",
+      "resolvedFontSize": 16.67,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#0B2A53",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.93,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "站间运行时间调整"
+          },
+          {
+            "index": 2,
+            "text": "停站时间调整"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "站间运行时间调整",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "站间运行时间调整",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "停站时间调整",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "停站时间调整",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h0zqxkfu",
+      "id": "16",
+      "name": "dispatch-arrow",
+      "bbox": [
+        430,
+        286,
+        60,
+        164
+      ],
+      "geometry": "downArrow",
+      "lineWidth": 1
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gzq94ze9",
+      "id": "17",
+      "name": "dispatch-label",
+      "bbox": [
+        498,
+        316,
+        310,
+        92
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F4FAFF",
+      "lineColor": "#2196E6",
+      "lineWidth": 2
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b2x8jqxk",
+      "id": "18",
+      "bbox": [
+        508,
+        324,
+        290,
+        75
+      ],
+      "geometry": "rect",
+      "text": "下发\n目标站间运行时间、停站时间、发车约束",
+      "textPreview": "下发 | 目标站间运行时间、停站时间、发车约束",
+      "resolvedFontSize": 18.06,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "Microsoft YaHei",
+        "color": "#0B2A53",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.95,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "下发"
+          },
+          {
+            "index": 2,
+            "text": "目标站间运行时间、停站时间、发"
+          },
+          {
+            "index": 3,
+            "text": "车约束"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "下发",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "下发",
+              "fontSize": 19,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "目标站间运行时间、停站时间、发车约束",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "目标站间运行时间、停站时间、发车约束",
+              "fontSize": 19,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a147qlgz",
+      "id": "19",
+      "name": "feedback-arrow",
+      "bbox": [
+        882,
+        292,
+        60,
+        158
+      ],
+      "geometry": "upArrow",
+      "lineWidth": 1
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/excbytgn",
+      "id": "20",
+      "name": "feedback-label",
+      "bbox": [
+        952,
+        316,
+        310,
+        92
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFF2E7",
+      "lineColor": "#F47B20",
+      "lineWidth": 2
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zylsryh8",
+      "id": "21",
+      "bbox": [
+        962,
+        324,
+        290,
+        75
+      ],
+      "geometry": "rect",
+      "text": "反馈\n实际运行时间、能耗、可行性、安全指标",
+      "textPreview": "反馈 | 实际运行时间、能耗、可行性、安全指标",
+      "resolvedFontSize": 18.06,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "Microsoft YaHei",
+        "color": "#9A3412",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.95,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "反馈"
+          },
+          {
+            "index": 2,
+            "text": "实际运行时间、能耗、可行性、安"
+          },
+          {
+            "index": 3,
+            "text": "全指标"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "反馈",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Microsoft YaHei",
+            "color": "#9A3412",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "反馈",
+              "fontSize": 19,
+              "typeface": "Microsoft YaHei",
+              "color": "#9A3412",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "实际运行时间、能耗、可行性、安全指标",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Microsoft YaHei",
+            "color": "#9A3412",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "实际运行时间、能耗、可行性、安全指标",
+              "fontSize": 19,
+              "typeface": "Microsoft YaHei",
+              "color": "#9A3412",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0zut03yd",
+      "id": "22",
+      "name": "lower-SAC",
+      "bbox": [
+        240,
+        464,
+        1120,
+        374
+      ],
+      "geometry": "roundRect",
+      "lineColor": "#07867F",
+      "lineWidth": 4
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/103at8zy",
+      "id": "23",
+      "name": "lower-header",
+      "bbox": [
+        244,
+        468,
+        1112,
+        68
+      ],
+      "geometry": "rect",
+      "fillColor": "#CFF3EA",
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qtcbutgb",
+      "id": "24",
+      "bbox": [
+        280,
+        472,
+        1040,
+        58
+      ],
+      "geometry": "rect",
+      "text": "下层：共享 SAC 站间驾驶控制",
+      "textPreview": "下层：共享 SAC 站间驾驶控制",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 34,
+        "typeface": "Microsoft YaHei",
+        "color": "#0B2A53",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "下层：共享 SAC 站间驾驶控制"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "下层：共享 SAC 站间驾驶控制",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "下层：共享 SAC 站间驾驶控制",
+              "fontSize": 34,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ruls3yhw",
+      "id": "25",
+      "name": "16维状态",
+      "bbox": [
+        262,
+        558,
+        195,
+        166
+      ],
+      "geometry": "roundRect",
+      "lineColor": "#07867F",
+      "lineWidth": 2
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cvutw3yh",
+      "id": "26",
+      "name": "16维状态-header",
+      "bbox": [
+        264,
+        560,
+        191,
+        46
+      ],
+      "geometry": "rect",
+      "fillColor": "#E8FAF7",
+      "lineWidth": 0
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dw3a5oz2",
+      "id": "27",
+      "name": "16维状态-title",
+      "bbox": [
+        269,
+        560,
+        181,
+        46
+      ],
+      "geometry": "rect",
+      "text": "16维状态",
+      "textPreview": "16维状态",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 22,
+        "typeface": "Microsoft YaHei",
+        "color": "#0B2A53",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "16维状态"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "16维状态",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "16维状态",
+              "fontSize": 22,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2psbq9gf",
+      "id": "28",
+      "name": "16维状态-body",
+      "bbox": [
+        274,
+        609,
+        171,
+        110
+      ],
+      "geometry": "rect",
+      "text": "速度、位置、时刻偏差\n载重、坡度、限速\n方向、站间编号",
+      "textPreview": "速度、位置、时刻偏差 | 载重、坡度、限速 | 方向、站间编号",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#0B2A53",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "速度、位置、时刻"
+          },
+          {
+            "index": 2,
+            "text": "偏差"
+          },
+          {
+            "index": 3,
+            "text": "载重、坡度、限速"
+          },
+          {
+            "index": 4,
+            "text": "方向、站间编号"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "速度、位置、时刻偏差",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "速度、位置、时刻偏差",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "载重、坡度、限速",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "载重、坡度、限速",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "方向、站间编号",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "方向、站间编号",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3q1szeh0",
+      "id": "29",
+      "name": "SAC Actor",
+      "bbox": [
+        482,
+        558,
+        224,
+        166
+      ],
+      "geometry": "roundRect",
+      "lineColor": "#1368AA",
+      "lineWidth": 2
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lkre5cji",
+      "id": "30",
+      "name": "SAC Actor-header",
+      "bbox": [
+        484,
+        560,
+        220,
+        46
+      ],
+      "geometry": "rect",
+      "fillColor": "#D5ECFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 31,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kjydw7ix",
+      "id": "31",
+      "name": "SAC Actor-title",
+      "bbox": [
+        489,
+        560,
+        210,
+        46
+      ],
+      "geometry": "rect",
+      "text": "SAC Actor",
+      "textPreview": "SAC Actor",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 22,
+        "typeface": "Microsoft YaHei",
+        "color": "#0B2A53",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SAC Actor"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SAC Actor",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SAC Actor",
+              "fontSize": 22,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 32,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jipw3m1c",
+      "id": "32",
+      "name": "SAC Actor-body",
+      "bbox": [
+        494,
+        609,
+        200,
+        110
+      ],
+      "geometry": "rect",
+      "text": "训练：高斯分布采样 μ, σ\n\n评估：策略均值 tanh(μ)",
+      "textPreview": "训练：高斯分布采样 μ, σ |  | 评估：策略均值 tanh(μ)",
+      "resolvedFontSize": 17.12,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#0B2A53",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.95,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "训练：高斯分布采样 μ,"
+          },
+          {
+            "index": 2,
+            "text": "σ"
+          },
+          {
+            "index": 3,
+            "text": ""
+          },
+          {
+            "index": 4,
+            "text": "评估：策略均值"
+          },
+          {
+            "index": 5,
+            "text": "tanh(μ)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "训练：高斯分布采样 μ, σ",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "训练：高斯分布采样 μ, σ",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "评估：策略均值 tanh(μ)",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "评估：策略均值 tanh(μ)",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 33,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yhgvuh0r",
+      "id": "33",
+      "name": "连续动作",
+      "bbox": [
+        732,
+        558,
+        170,
+        166
+      ],
+      "geometry": "roundRect",
+      "lineColor": "#07867F",
+      "lineWidth": 2
+    },
+    {
+      "order": 34,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xg7e1cj6",
+      "id": "34",
+      "name": "连续动作-header",
+      "bbox": [
+        734,
+        560,
+        166,
+        46
+      ],
+      "geometry": "rect",
+      "fillColor": "#E8FAF7",
+      "lineWidth": 0
+    },
+    {
+      "order": 35,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wfyds7il",
+      "id": "35",
+      "name": "连续动作-title",
+      "bbox": [
+        739,
+        560,
+        156,
+        46
+      ],
+      "geometry": "rect",
+      "text": "连续动作",
+      "textPreview": "连续动作",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 22,
+        "typeface": "Microsoft YaHei",
+        "color": "#0B2A53",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "连续动作"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "连续动作",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "连续动作",
+              "fontSize": 22,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 36,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bepwz21g",
+      "id": "36",
+      "name": "连续动作-body",
+      "bbox": [
+        744,
+        609,
+        146,
+        110
+      ],
+      "geometry": "rect",
+      "text": "牵引 / 制动比例",
+      "textPreview": "牵引 / 制动比例",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#0B2A53",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "牵引 / 制动比例"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "牵引 / 制动比例",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "牵引 / 制动比例",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 37,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/atgvqx0v",
+      "id": "37",
+      "name": "安全执行层",
+      "bbox": [
+        928,
+        558,
+        210,
+        210
+      ],
+      "geometry": "roundRect",
+      "lineColor": "#07867F",
+      "lineWidth": 2
+    },
+    {
+      "order": 38,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9s7exsja",
+      "id": "38",
+      "name": "安全执行层-header",
+      "bbox": [
+        930,
+        560,
+        206,
+        46
+      ],
+      "geometry": "rect",
+      "fillColor": "#E8FAF7",
+      "lineWidth": 0
+    },
+    {
+      "order": 39,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oredonip",
+      "id": "39",
+      "name": "安全执行层-title",
+      "bbox": [
+        935,
+        560,
+        196,
+        46
+      ],
+      "geometry": "rect",
+      "text": "安全执行层",
+      "textPreview": "安全执行层",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 22,
+        "typeface": "Microsoft YaHei",
+        "color": "#0B2A53",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "安全执行层"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "安全执行层",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "安全执行层",
+              "fontSize": 22,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 40,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ovq54bil",
+      "id": "40",
+      "name": "安全执行层-body",
+      "bbox": [
+        940,
+        609,
+        186,
+        154
+      ],
+      "geometry": "rect",
+      "text": "牵引、功率、制动力\n及加速度硬约束\n\n预测超速时最小安全投影\n终点停车保护",
+      "textPreview": "牵引、功率、制动力 | 及加速度硬约束 |  | 预测超速时最小安全投影 | 终点停车保护",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#0B2A53",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 6,
+        "lines": [
+          {
+            "index": 1,
+            "text": "牵引、功率、制动力"
+          },
+          {
+            "index": 2,
+            "text": "及加速度硬约束"
+          },
+          {
+            "index": 3,
+            "text": ""
+          },
+          {
+            "index": 4,
+            "text": "预测超速时最小安全"
+          },
+          {
+            "index": 5,
+            "text": "投影"
+          },
+          {
+            "index": 6,
+            "text": "终点停车保护"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "牵引、功率、制动力",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "牵引、功率、制动力",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "及加速度硬约束",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "及加速度硬约束",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "预测超速时最小安全投影",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "预测超速时最小安全投影",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "终点停车保护",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "终点停车保护",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 41,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pwzmxwj6",
+      "id": "41",
+      "name": "列车与线路环境",
+      "bbox": [
+        1164,
+        558,
+        176,
+        166
+      ],
+      "geometry": "roundRect",
+      "lineColor": "#07867F",
+      "lineWidth": 2
+    },
+    {
+      "order": 42,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2to3210v",
+      "id": "42",
+      "name": "列车与线路环境-header",
+      "bbox": [
+        1166,
+        560,
+        172,
+        46
+      ],
+      "geometry": "rect",
+      "fillColor": "#E8FAF7",
+      "lineWidth": 0
+    },
+    {
+      "order": 43,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nux4v610",
+      "id": "43",
+      "name": "列车与线路环境-title",
+      "bbox": [
+        1171,
+        560,
+        162,
+        46
+      ],
+      "geometry": "rect",
+      "text": "列车与线路环境",
+      "textPreview": "列车与线路环境",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "Microsoft YaHei",
+        "color": "#0B2A53",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "列车与线路环境"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "列车与线路环境",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "列车与线路环境",
+              "fontSize": 19,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 44,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cjq58bix",
+      "id": "44",
+      "name": "列车与线路环境-body",
+      "bbox": [
+        1176,
+        609,
+        152,
+        110
+      ],
+      "geometry": "rect",
+      "text": "Davis阻力、坡度\n曲线、限速\n纵向动力学",
+      "textPreview": "Davis阻力、坡度 | 曲线、限速 | 纵向动力学",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#0B2A53",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Davis阻力、坡"
+          },
+          {
+            "index": 2,
+            "text": "度"
+          },
+          {
+            "index": 3,
+            "text": "曲线、限速"
+          },
+          {
+            "index": 4,
+            "text": "纵向动力学"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Davis阻力、坡度",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Davis阻力、坡度",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "曲线、限速",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "曲线、限速",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "纵向动力学",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "纵向动力学",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 45,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xkzm1gji",
+      "id": "45",
+      "name": "critic-replay",
+      "bbox": [
+        480,
+        754,
+        230,
+        60
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E6F2FF",
+      "lineColor": "#1368AA",
+      "lineWidth": 2
+    },
+    {
+      "order": 46,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ax8n610r",
+      "id": "46",
+      "bbox": [
+        490,
+        761,
+        210,
+        46
+      ],
+      "geometry": "rect",
+      "text": "双 Critic + 经验回放池",
+      "textPreview": "双 Critic + 经验回放池",
+      "resolvedFontSize": 18.91,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 20,
+        "typeface": "Microsoft YaHei",
+        "color": "#0B2A53",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.95,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "双 Critic + 经验回放池"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "双 Critic + 经验回放池",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "双 Critic + 经验回放池",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 47,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bih4z61c",
+      "id": "47",
+      "bbox": [
+        457,
+        641,
+        25,
+        0
+      ],
+      "geometry": "straightConnector1",
+      "lineColor": "#1368AA",
+      "lineWidth": 3
+    },
+    {
+      "order": 48,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/snmlw7id",
+      "id": "48",
+      "bbox": [
+        706,
+        641,
+        26,
+        0
+      ],
+      "geometry": "straightConnector1",
+      "lineColor": "#1368AA",
+      "lineWidth": 3
+    },
+    {
+      "order": 49,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dofmpcjy",
+      "id": "49",
+      "bbox": [
+        902,
+        641,
+        26,
+        22
+      ],
+      "geometry": "straightConnector1",
+      "lineColor": "#1368AA",
+      "lineWidth": 3
+    },
+    {
+      "order": 50,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vil8vulg",
+      "id": "50",
+      "bbox": [
+        1138,
+        641,
+        26,
+        22
+      ],
+      "verticalFlip": true,
+      "geometry": "straightConnector1",
+      "lineColor": "#1368AA",
+      "lineWidth": 3
+    },
+    {
+      "order": 51,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uhc72pkv",
+      "id": "51",
+      "bbox": [
+        594,
+        724,
+        1,
+        30
+      ],
+      "geometry": "bentConnector4",
+      "lineColor": "#1368AA",
+      "lineWidth": 3
+    },
+    {
+      "order": 52,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hk3qxk3m",
+      "id": "52",
+      "bbox": [
+        594,
+        724,
+        1,
+        30
+      ],
+      "horizontalFlip": true,
+      "verticalFlip": true,
+      "geometry": "bentConnector4",
+      "lineColor": "#1368AA",
+      "lineWidth": 3
+    },
+    {
+      "order": 53,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gjup4f21",
+      "id": "53",
+      "bbox": [
+        702,
+        733,
+        205,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Q值估计与策略更新",
+      "textPreview": "Q值估计与策略更新",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 17,
+        "typeface": "Microsoft YaHei",
+        "color": "#0B2A53",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Q值估计与策略更新"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Q值估计与策略更新",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Q值估计与策略更新",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 54,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7e1oralk",
+      "id": "54",
+      "name": "基础数据",
+      "bbox": [
+        12,
+        342,
+        210,
+        204
+      ],
+      "geometry": "roundRect",
+      "lineColor": "#1368AA",
+      "lineWidth": 2
+    },
+    {
+      "order": 55,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6ds7y5kz",
+      "id": "55",
+      "name": "基础数据-header",
+      "bbox": [
+        14,
+        344,
+        206,
+        52
+      ],
+      "geometry": "rect",
+      "fillColor": "#D5ECFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 56,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tg36tk3q",
+      "id": "56",
+      "name": "基础数据-title",
+      "bbox": [
+        19,
+        344,
+        196,
+        52
+      ],
+      "geometry": "rect",
+      "text": "基础数据",
+      "textPreview": "基础数据",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 22,
+        "typeface": "Microsoft YaHei",
+        "color": "#0B2A53",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "基础数据"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "基础数据",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "基础数据",
+              "fontSize": 22,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 57,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8fup0f25",
+      "id": "57",
+      "name": "基础数据-body",
+      "bbox": [
+        24,
+        399,
+        186,
+        142
+      ],
+      "geometry": "rect",
+      "text": "真实时刻表\n线路坡度 / 曲线 / 限速\n列车质量与牵引特性",
+      "textPreview": "真实时刻表 | 线路坡度 / 曲线 / 限速 | 列车质量与牵引特性",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#0B2A53",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "真实时刻表"
+          },
+          {
+            "index": 2,
+            "text": "线路坡度 / 曲线 /"
+          },
+          {
+            "index": 3,
+            "text": "限速"
+          },
+          {
+            "index": 4,
+            "text": "列车质量与牵引特性"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "真实时刻表",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "真实时刻表",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "线路坡度 / 曲线 / 限速",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "线路坡度 / 曲线 / 限速",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "列车质量与牵引特性",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "列车质量与牵引特性",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 58,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jq1onal8",
+      "id": "58",
+      "name": "结果",
+      "bbox": [
+        1380,
+        346,
+        208,
+        238
+      ],
+      "geometry": "roundRect",
+      "lineColor": "#1368AA",
+      "lineWidth": 2
+    },
+    {
+      "order": 59,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yps7u5k3",
+      "id": "59",
+      "name": "结果-header",
+      "bbox": [
+        1382,
+        348,
+        204,
+        52
+      ],
+      "geometry": "rect",
+      "fillColor": "#D5ECFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 60,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2l8765ov",
+      "id": "60",
+      "name": "结果-title",
+      "bbox": [
+        1387,
+        348,
+        194,
+        52
+      ],
+      "geometry": "rect",
+      "text": "结果",
+      "textPreview": "结果",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 22,
+        "typeface": "Microsoft YaHei",
+        "color": "#0B2A53",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "结果"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "结果",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "结果",
+              "fontSize": 22,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 61,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nmh8fq5g",
+      "id": "61",
+      "name": "结果-body",
+      "bbox": [
+        1392,
+        403,
+        184,
+        176
+      ],
+      "geometry": "rect",
+      "text": "优化时刻表\n速度轨迹\n牵引 / 制动力曲线\n能耗与可行率",
+      "textPreview": "优化时刻表 | 速度轨迹 | 牵引 / 制动力曲线 | 能耗与可行率",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#0B2A53",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "优化时刻表"
+          },
+          {
+            "index": 2,
+            "text": "速度轨迹"
+          },
+          {
+            "index": 3,
+            "text": "牵引 / 制动力曲线"
+          },
+          {
+            "index": 4,
+            "text": "能耗与可行率"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "优化时刻表",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "优化时刻表",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "速度轨迹",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "速度轨迹",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "牵引 / 制动力曲线",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "牵引 / 制动力曲线",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "能耗与可行率",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "能耗与可行率",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 62,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/onap8v61",
+      "id": "62",
+      "bbox": [
+        117,
+        162,
+        143,
+        180
+      ],
+      "verticalFlip": true,
+      "geometry": "bentConnector5",
+      "lineColor": "#1368AA",
+      "lineWidth": 4
+    },
+    {
+      "order": 63,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pojqh0n6",
+      "id": "63",
+      "bbox": [
+        117,
+        546,
+        145,
+        95
+      ],
+      "geometry": "bentConnector3",
+      "lineColor": "#1368AA",
+      "lineWidth": 4
+    },
+    {
+      "order": 64,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/apsra54r",
+      "id": "64",
+      "bbox": [
+        1340,
+        162,
+        144,
+        184
+      ],
+      "geometry": "bentConnector2",
+      "lineColor": "#1368AA",
+      "lineWidth": 4
+    },
+    {
+      "order": 65,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ba18ja5c",
+      "id": "65",
+      "bbox": [
+        1340,
+        584,
+        144,
+        57
+      ],
+      "verticalFlip": true,
+      "geometry": "bentConnector2",
+      "lineColor": "#1368AA",
+      "lineWidth": 4
+    }
+  ],
+  "composeRuns": []
+}

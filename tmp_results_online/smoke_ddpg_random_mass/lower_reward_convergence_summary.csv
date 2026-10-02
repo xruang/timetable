@@ -1,0 +1,2 @@
+﻿train_name,episodes,moving_average_window,convergence_window,initial_reward_per_km_moving_average,final_reward_per_km_moving_average,final_window_std,final_window_slope
+Shared DDPG lower policy,1,1,1,-112.1732095206491,-112.1732095206491,0.0,0.0

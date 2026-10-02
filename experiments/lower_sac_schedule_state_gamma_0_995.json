@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "experiment_name": "lower_sac_schedule_state_gamma_0_995",
+  "description": "Lower-only SAC with the true speed limit, explicit signed schedule deviation and gamma 0.995.",
+  "parameters": {
+    "experiment_stage": "lower",
+    "lower_algorithm": "sac",
+    "share_lower_continuous": true,
+    "lower_policy_mode": "fresh",
+    "lower_bc_episodes": 0,
+    "lower_episodes": 5000,
+    "lower_log_interval": 10,
+    "lower_checkpoint_interval": 500,
+    "lower_plot_interval": 100,
+    "lower_target_span": 0,
+    "lower_arrival_tolerance": 0.5,
+    "lower_speed_limit_ratio": 1.0,
+    "lower_sac_gamma": 0.995,
+    "lower_schedule_deviation_state": true,
+    "runtime_adjustment_span": 0,
+    "dwell_adjustment_span": 10,
+    "up_trains": 6,
+    "down_trains": 6,
+    "seed": 7,
+    "lower_device": "cpu"
+  }
+}

@@ -1,0 +1,1176 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/1ofhfv",
+    "id": "1ofhfv",
+    "slide": 5,
+    "layoutId": "dd11842a-62b6-43dd-a8bd-9f81d182e005",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "6295fa2f-145c-4dfe-93ac-7c64c11a034f",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FBFCFE",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Cambria Math",
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "dd11842a-62b6-43dd-a8bd-9f81d182e005",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "6295fa2f-145c-4dfe-93ac-7c64c11a034f",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "6295fa2f-145c-4dfe-93ac-7c64c11a034f",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kjahk32d",
+      "id": "1",
+      "bbox": [
+        72,
+        40,
+        1456,
+        62
+      ],
+      "geometry": "rect",
+      "text": "MAPPO上层动作与时刻传播",
+      "textPreview": "MAPPO上层动作与时刻传播",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 38,
+        "typeface": "Microsoft YaHei",
+        "color": "#0B2A53",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MAPPO上层动作与时刻传播"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MAPPO上层动作与时刻传播",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MAPPO上层动作与时刻传播",
+              "fontSize": 38,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zi10byls",
+      "id": "2",
+      "bbox": [
+        72,
+        105,
+        220,
+        34
+      ],
+      "geometry": "rect",
+      "text": "MAPPO上层规划",
+      "textPreview": "MAPPO上层规划",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 17,
+        "typeface": "Microsoft YaHei",
+        "color": "#E56B1F",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MAPPO上层规划"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MAPPO上层规划",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#E56B1F",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MAPPO上层规划",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#E56B1F",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yhszitk7",
+      "id": "3",
+      "bbox": [
+        72,
+        145,
+        1456,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#E56B1F",
+      "lineWidth": 3
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/983ih83u",
+      "id": "4",
+      "bbox": [
+        1450,
+        842,
+        78,
+        28
+      ],
+      "geometry": "rect",
+      "text": "05",
+      "textPreview": "05",
+      "resolvedFontSize": 13.33,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14,
+        "typeface": "Microsoft YaHei",
+        "color": "#526579",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.95,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "05"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "05",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Microsoft YaHei",
+            "color": "#526579",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "05",
+              "fontSize": 14,
+              "typeface": "Microsoft YaHei",
+              "color": "#526579",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/87u1on29",
+      "id": "5",
+      "bbox": [
+        86,
+        170,
+        250,
+        34
+      ],
+      "geometry": "rect",
+      "text": "上层动作映射",
+      "textPreview": "上层动作映射",
+      "resolvedFontSize": 18.33,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 20,
+        "typeface": "Microsoft YaHei",
+        "color": "#E56B1F",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.92,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "上层动作映射"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "上层动作映射",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Microsoft YaHei",
+            "color": "#E56B1F",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "上层动作映射",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#E56B1F",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7ml0filo",
+      "id": "6",
+      "bbox": [
+        86,
+        208,
+        1060,
+        112
+      ],
+      "geometry": "roundRect",
+      "text": "ΔDᵢ,ₖ = Dₘₐₓ·tanh(uᵢ,ₖᵈʷᵉˡˡ)\nΔTᵢ,ₖ = Tₘₐₓ·tanh(uᵢ,ₖʳᵘⁿ)",
+      "textPreview": "ΔDᵢ,ₖ = Dₘₐₓ·tanh(uᵢ,ₖᵈʷᵉˡˡ) | ΔTᵢ,ₖ = Tₘₐₓ·tanh(uᵢ,ₖʳᵘⁿ)",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 30,
+        "typeface": "Cambria Math",
+        "color": "#0B2A53",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ΔDᵢ,ₖ = Dₘₐₓ·tanh(uᵢ,ₖᵈʷᵉˡˡ)"
+          },
+          {
+            "index": 2,
+            "text": "ΔTᵢ,ₖ = Tₘₐₓ·tanh(uᵢ,ₖʳᵘⁿ)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ΔDᵢ,ₖ = Dₘₐₓ·tanh(uᵢ,ₖᵈʷᵉˡˡ)",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Cambria Math",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ΔDᵢ,ₖ = Dₘₐₓ·tanh(uᵢ,ₖᵈʷᵉˡˡ)",
+              "fontSize": 30,
+              "typeface": "Cambria Math",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "ΔTᵢ,ₖ = Tₘₐₓ·tanh(uᵢ,ₖʳᵘⁿ)",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Cambria Math",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ΔTᵢ,ₖ = Tₘₐₓ·tanh(uᵢ,ₖʳᵘⁿ)",
+              "fontSize": 30,
+              "typeface": "Cambria Math",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C8D7E5",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mlszmdk3",
+      "id": "7",
+      "bbox": [
+        1172,
+        208,
+        342,
+        112
+      ],
+      "geometry": "roundRect",
+      "text": "当前课题设置Tₘₐₓ=0，上层主要优化停站时间。",
+      "textPreview": "当前课题设置Tₘₐₓ=0，上层主要优化停站时间。",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 17,
+        "typeface": "Microsoft YaHei",
+        "color": "#526579",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "当前课题设置Tₘₐₓ=0，上层主要优化停站"
+          },
+          {
+            "index": 2,
+            "text": "时间。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "当前课题设置Tₘₐₓ=0，上层主要优化停站时间。",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#526579",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "当前课题设置Tₘₐₓ=0，上层主要优化停站时间。",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#526579",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFF2E8",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pczi5o3q",
+      "id": "8",
+      "bbox": [
+        86,
+        328,
+        1428,
+        43
+      ],
+      "geometry": "roundRect",
+      "text": "LaTeX：\\Delta D_{i,k}=D_{max}\\tanh(u_{i,k}^{dwell}),\\quad \\Delta T_{i,k}=T_{max}\\tanh(u_{i,k}^{run})",
+      "textPreview": "LaTeX：\\Delta D_{i,k}=D_{max}\\tanh(u_{i,k}^{dwell}),\\quad \\Delta T_{i,k}=T_{max}\\tanh(u_{i,k}^{run})",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15,
+        "typeface": "Cambria Math",
+        "color": "#526579",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "LaTeX：\\Delta D_{i,k}=D_{max}\\tanh(u_{i,k}^{dwell}),\\quad \\Delta T_{i,k}=T_{max}\\tanh(u_{i,k}^{run})"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "LaTeX：\\Delta D_{i,k}=D_{max}\\tanh(u_{i,k}^{dwell}),\\quad \\Delta T_{i,k}=T_{max}\\tanh(u_{i,k}^{run})",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Cambria Math",
+            "color": "#526579",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "LaTeX：\\Delta D_{i,k}=D_{max}\\tanh(u_{i,k}^{dwell}),\\quad \\Delta T_{i,k}=T_{max}\\tanh(u_{i,k}^{run})",
+              "fontSize": 15,
+              "typeface": "Cambria Math",
+              "color": "#526579",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#F4F7FA",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/obqhcj25",
+      "id": "9",
+      "bbox": [
+        86,
+        380,
+        250,
+        34
+      ],
+      "geometry": "rect",
+      "text": "目标时刻与到达时刻",
+      "textPreview": "目标时刻与到达时刻",
+      "resolvedFontSize": 18.33,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 20,
+        "typeface": "Microsoft YaHei",
+        "color": "#E56B1F",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.92,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "目标时刻与到达时刻"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "目标时刻与到达时刻",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Microsoft YaHei",
+            "color": "#E56B1F",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "目标时刻与到达时刻",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#E56B1F",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ax4vutgf",
+      "id": "10",
+      "bbox": [
+        86,
+        418,
+        1060,
+        122
+      ],
+      "geometry": "roundRect",
+      "text": "Dᵢ,ₖ = Dᵢ,ₖ⁰ + ΔDᵢ,ₖ，    Tᵢ,ₖᵗᵃʳ = Tᵢ,ₖ⁰ + ΔTᵢ,ₖ\nAᵢ,ₖ₊₁ = Aᵢ,ₖ + Dᵢ,ₖ + Tᵢ,ₖᵃᶜᵗ",
+      "textPreview": "Dᵢ,ₖ = Dᵢ,ₖ⁰ + ΔDᵢ,ₖ，    Tᵢ,ₖᵗᵃʳ = Tᵢ,ₖ⁰ + ΔTᵢ,ₖ | Aᵢ,ₖ₊₁ = Aᵢ,ₖ + Dᵢ,ₖ + Tᵢ,ₖᵃᶜᵗ",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 30,
+        "typeface": "Cambria Math",
+        "color": "#0B2A53",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Dᵢ,ₖ = Dᵢ,ₖ⁰ + ΔDᵢ,ₖ，    Tᵢ,ₖᵗᵃʳ = Tᵢ,ₖ⁰ + ΔTᵢ,ₖ"
+          },
+          {
+            "index": 2,
+            "text": "Aᵢ,ₖ₊₁ = Aᵢ,ₖ + Dᵢ,ₖ + Tᵢ,ₖᵃᶜᵗ"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Dᵢ,ₖ = Dᵢ,ₖ⁰ + ΔDᵢ,ₖ，    Tᵢ,ₖᵗᵃʳ = Tᵢ,ₖ⁰ + ΔTᵢ,ₖ",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Cambria Math",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Dᵢ,ₖ = Dᵢ,ₖ⁰ + ΔDᵢ,ₖ，    Tᵢ,ₖᵗᵃʳ = Tᵢ,ₖ⁰ + ΔTᵢ,ₖ",
+              "fontSize": 30,
+              "typeface": "Cambria Math",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Aᵢ,ₖ₊₁ = Aᵢ,ₖ + Dᵢ,ₖ + Tᵢ,ₖᵃᶜᵗ",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Cambria Math",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Aᵢ,ₖ₊₁ = Aᵢ,ₖ + Dᵢ,ₖ + Tᵢ,ₖᵃᶜᵗ",
+              "fontSize": 30,
+              "typeface": "Cambria Math",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C8D7E5",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vydwnex0",
+      "id": "11",
+      "bbox": [
+        1172,
+        418,
+        342,
+        122
+      ],
+      "geometry": "roundRect",
+      "text": "实际运行时间由下层策略仿真返回，不直接用目标时间替代。",
+      "textPreview": "实际运行时间由下层策略仿真返回，不直接用目标时间替代。",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 17,
+        "typeface": "Microsoft YaHei",
+        "color": "#526579",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "实际运行时间由下层策略仿真返回，不直"
+          },
+          {
+            "index": 2,
+            "text": "接用目标时间替代。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "实际运行时间由下层策略仿真返回，不直接用目标时间替代。",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#526579",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "实际运行时间由下层策略仿真返回，不直接用目标时间替代。",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#526579",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFF2E8",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wz6dwjyl",
+      "id": "12",
+      "bbox": [
+        86,
+        548,
+        1428,
+        43
+      ],
+      "geometry": "roundRect",
+      "text": "LaTeX：D_{i,k}=D_{i,k}^0+\\Delta D_{i,k},\\quad T_{i,k}^{tar}=T_{i,k}^0+\\Delta T_{i,k},\\quad A_{i,k+1}=A_{i,k}+D_{i,k}+T_{i,k}^{act}",
+      "textPreview": "LaTeX：D_{i,k}=D_{i,k}^0+\\Delta D_{i,k},\\quad T_{i,k}^{tar}=T_{i,k}^0+\\Delta T_{i,k},\\quad A_{i,k+1}=A_{i,k}+D_{i,k}+T_{i,k}^{act}",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15,
+        "typeface": "Cambria Math",
+        "color": "#526579",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "LaTeX：D_{i,k}=D_{i,k}^0+\\Delta D_{i,k},\\quad T_{i,k}^{tar}=T_{i,k}^0+\\Delta T_{i,k},\\quad A_{i,k+1}=A_{i,k}+D_{i,k}+T_{i,k}^{act}"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "LaTeX：D_{i,k}=D_{i,k}^0+\\Delta D_{i,k},\\quad T_{i,k}^{tar}=T_{i,k}^0+\\Delta T_{i,k},\\quad A_{i,k+1}=A_{i,k}+D_{i,k}+T_{i,k}^{act}",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Cambria Math",
+            "color": "#526579",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "LaTeX：D_{i,k}=D_{i,k}^0+\\Delta D_{i,k},\\quad T_{i,k}^{tar}=T_{i,k}^0+\\Delta T_{i,k},\\quad A_{i,k+1}=A_{i,k}+D_{i,k}+T_{i,k}^{act}",
+              "fontSize": 15,
+              "typeface": "Cambria Math",
+              "color": "#526579",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#F4F7FA",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x0fepofq",
+      "id": "13",
+      "bbox": [
+        86,
+        600,
+        250,
+        34
+      ],
+      "geometry": "rect",
+      "text": "上下层调用关系",
+      "textPreview": "上下层调用关系",
+      "resolvedFontSize": 18.33,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 20,
+        "typeface": "Microsoft YaHei",
+        "color": "#E56B1F",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.92,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "上下层调用关系"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "上下层调用关系",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Microsoft YaHei",
+            "color": "#E56B1F",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "上下层调用关系",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#E56B1F",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ilovytgb",
+      "id": "14",
+      "bbox": [
+        86,
+        638,
+        1060,
+        92
+      ],
+      "geometry": "roundRect",
+      "text": "(Tᵃᶜᵗ,Eᵗʳ,Eʳᵉᵍ,χ,𝒳) = fθˢᴬᶜ(Tᵗᵃʳ,m,ℓ,d)",
+      "textPreview": "(Tᵃᶜᵗ,Eᵗʳ,Eʳᵉᵍ,χ,𝒳) = fθˢᴬᶜ(Tᵗᵃʳ,m,ℓ,d)",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 30,
+        "typeface": "Cambria Math",
+        "color": "#0B2A53",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "(Tᵃᶜᵗ,Eᵗʳ,Eʳᵉᵍ,χ,𝒳) = fθˢᴬᶜ(Tᵗᵃʳ,m,ℓ,d)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "(Tᵃᶜᵗ,Eᵗʳ,Eʳᵉᵍ,χ,𝒳) = fθˢᴬᶜ(Tᵗᵃʳ,m,ℓ,d)",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Cambria Math",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "(Tᵃᶜᵗ,Eᵗʳ,Eʳᵉᵍ,χ,𝒳) = fθˢᴬᶜ(Tᵗᵃʳ,m,ℓ,d)",
+              "fontSize": 30,
+              "typeface": "Cambria Math",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C8D7E5",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jmxwryxw",
+      "id": "15",
+      "bbox": [
+        1172,
+        638,
+        342,
+        92
+      ],
+      "geometry": "roundRect",
+      "text": "下层向上层返回实际时间、牵引能耗、再生能、可行性和运行轨迹。",
+      "textPreview": "下层向上层返回实际时间、牵引能耗、再生能、可行性和运行轨迹。",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 17,
+        "typeface": "Microsoft YaHei",
+        "color": "#526579",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "下层向上层返回实际时间、牵引能耗、再"
+          },
+          {
+            "index": 2,
+            "text": "生能、可行性和运行轨迹。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "下层向上层返回实际时间、牵引能耗、再生能、可行性和运行轨迹。",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#526579",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "下层向上层返回实际时间、牵引能耗、再生能、可行性和运行轨迹。",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#526579",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFF2E8",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kn6d03yh",
+      "id": "16",
+      "bbox": [
+        86,
+        738,
+        1428,
+        43
+      ],
+      "geometry": "roundRect",
+      "text": "LaTeX：(T^{act},E^{tr},E^{reg},\\chi,\\mathcal X)=f_\\theta^{SAC}(T^{tar},m,\\ell,d)",
+      "textPreview": "LaTeX：(T^{act},E^{tr},E^{reg},\\chi,\\mathcal X)=f_\\theta^{SAC}(T^{tar},m,\\ell,d)",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15,
+        "typeface": "Cambria Math",
+        "color": "#526579",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "LaTeX：(T^{act},E^{tr},E^{reg},\\chi,\\mathcal X)=f_\\theta^{SAC}(T^{tar},m,\\ell,d)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "LaTeX：(T^{act},E^{tr},E^{reg},\\chi,\\mathcal X)=f_\\theta^{SAC}(T^{tar},m,\\ell,d)",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Cambria Math",
+            "color": "#526579",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "LaTeX：(T^{act},E^{tr},E^{reg},\\chi,\\mathcal X)=f_\\theta^{SAC}(T^{tar},m,\\ell,d)",
+              "fontSize": 15,
+              "typeface": "Cambria Math",
+              "color": "#526579",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#F4F7FA",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,1147 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/eavp1y",
+    "id": "eavp1y",
+    "slide": 1,
+    "layoutId": "dd11842a-62b6-43dd-a8bd-9f81d182e005",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "6295fa2f-145c-4dfe-93ac-7c64c11a034f",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FBFCFE",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Cambria Math",
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "dd11842a-62b6-43dd-a8bd-9f81d182e005",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "6295fa2f-145c-4dfe-93ac-7c64c11a034f",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "6295fa2f-145c-4dfe-93ac-7c64c11a034f",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/876hgjmd",
+      "id": "1",
+      "bbox": [
+        72,
+        40,
+        1456,
+        62
+      ],
+      "geometry": "rect",
+      "text": "下层列车纵向动力学",
+      "textPreview": "下层列车纵向动力学",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 38,
+        "typeface": "Microsoft YaHei",
+        "color": "#0B2A53",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "下层列车纵向动力学"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "下层列车纵向动力学",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "下层列车纵向动力学",
+              "fontSize": 38,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/76x0ne5s",
+      "id": "2",
+      "bbox": [
+        72,
+        105,
+        220,
+        34
+      ],
+      "geometry": "rect",
+      "text": "SAC下层控制",
+      "textPreview": "SAC下层控制",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 17,
+        "typeface": "Microsoft YaHei",
+        "color": "#07867F",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SAC下层控制"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SAC下层控制",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#07867F",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SAC下层控制",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#07867F",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m5oze94n",
+      "id": "3",
+      "bbox": [
+        72,
+        145,
+        1456,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#07867F",
+      "lineWidth": 3
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l4vilon2",
+      "id": "4",
+      "bbox": [
+        1450,
+        842,
+        78,
+        28
+      ],
+      "geometry": "rect",
+      "text": "01",
+      "textPreview": "01",
+      "resolvedFontSize": 13.33,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14,
+        "typeface": "Microsoft YaHei",
+        "color": "#526579",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.95,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "01"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "01",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Microsoft YaHei",
+            "color": "#526579",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "01",
+              "fontSize": 14,
+              "typeface": "Microsoft YaHei",
+              "color": "#526579",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k3mhcjmh",
+      "id": "5",
+      "bbox": [
+        86,
+        170,
+        250,
+        34
+      ],
+      "geometry": "rect",
+      "text": "运动方程",
+      "textPreview": "运动方程",
+      "resolvedFontSize": 18.33,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 20,
+        "typeface": "Microsoft YaHei",
+        "color": "#07867F",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.92,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "运动方程"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "运动方程",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Microsoft YaHei",
+            "color": "#07867F",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "运动方程",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#07867F",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z2d0je5w",
+      "id": "6",
+      "bbox": [
+        86,
+        208,
+        1060,
+        90
+      ],
+      "geometry": "roundRect",
+      "text": "dx/dt = v，      m·dv/dt = F − R(v,x)",
+      "textPreview": "dx/dt = v，      m·dv/dt = F − R(v,x)",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 30,
+        "typeface": "Cambria Math",
+        "color": "#0B2A53",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "dx/dt = v，      m·dv/dt = F − R(v,x)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "dx/dt = v，      m·dv/dt = F − R(v,x)",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Cambria Math",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "dx/dt = v，      m·dv/dt = F − R(v,x)",
+              "fontSize": 30,
+              "typeface": "Cambria Math",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C8D7E5",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yh4za94b",
+      "id": "7",
+      "bbox": [
+        1172,
+        208,
+        342,
+        90
+      ],
+      "geometry": "roundRect",
+      "text": "x为位置，v为速度，F为执行力，m为列车质量。",
+      "textPreview": "x为位置，v为速度，F为执行力，m为列车质量。",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 17,
+        "typeface": "Microsoft YaHei",
+        "color": "#526579",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "x为位置，v为速度，F为执行力，m为列"
+          },
+          {
+            "index": 2,
+            "text": "车质量。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "x为位置，v为速度，F为执行力，m为列车质量。",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#526579",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "x为位置，v为速度，F为执行力，m为列车质量。",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#526579",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#E9F9F6",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/50zix8n6",
+      "id": "8",
+      "bbox": [
+        86,
+        306,
+        1428,
+        43
+      ],
+      "geometry": "roundRect",
+      "text": "LaTeX：\\dot{x}=v,\\quad m\\dot{v}=F-R(v,x)",
+      "textPreview": "LaTeX：\\dot{x}=v,\\quad m\\dot{v}=F-R(v,x)",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15,
+        "typeface": "Cambria Math",
+        "color": "#526579",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "LaTeX：\\dot{x}=v,\\quad m\\dot{v}=F-R(v,x)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "LaTeX：\\dot{x}=v,\\quad m\\dot{v}=F-R(v,x)",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Cambria Math",
+            "color": "#526579",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "LaTeX：\\dot{x}=v,\\quad m\\dot{v}=F-R(v,x)",
+              "fontSize": 15,
+              "typeface": "Cambria Math",
+              "color": "#526579",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#F4F7FA",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4zq1o3ml",
+      "id": "9",
+      "bbox": [
+        86,
+        355,
+        250,
+        34
+      ],
+      "geometry": "rect",
+      "text": "离散状态更新",
+      "textPreview": "离散状态更新",
+      "resolvedFontSize": 18.33,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 20,
+        "typeface": "Microsoft YaHei",
+        "color": "#07867F",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.92,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "离散状态更新"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "离散状态更新",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Microsoft YaHei",
+            "color": "#07867F",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "离散状态更新",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#07867F",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qpcni5cn",
+      "id": "10",
+      "bbox": [
+        86,
+        393,
+        1060,
+        112
+      ],
+      "geometry": "roundRect",
+      "text": "vₜ₊₁ = max[0, vₜ + (Fₜ − Rₜ)Δt/m]\nxₜ₊₁ = xₜ + (vₜ + vₜ₊₁)Δt/2",
+      "textPreview": "vₜ₊₁ = max[0, vₜ + (Fₜ − Rₜ)Δt/m] | xₜ₊₁ = xₜ + (vₜ + vₜ₊₁)Δt/2",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 30,
+        "typeface": "Cambria Math",
+        "color": "#0B2A53",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "vₜ₊₁ = max[0, vₜ + (Fₜ − Rₜ)Δt/m]"
+          },
+          {
+            "index": 2,
+            "text": "xₜ₊₁ = xₜ + (vₜ + vₜ₊₁)Δt/2"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "vₜ₊₁ = max[0, vₜ + (Fₜ − Rₜ)Δt/m]",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Cambria Math",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "vₜ₊₁ = max[0, vₜ + (Fₜ − Rₜ)Δt/m]",
+              "fontSize": 30,
+              "typeface": "Cambria Math",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "xₜ₊₁ = xₜ + (vₜ + vₜ₊₁)Δt/2",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Cambria Math",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "xₜ₊₁ = xₜ + (vₜ + vₜ₊₁)Δt/2",
+              "fontSize": 30,
+              "typeface": "Cambria Math",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C8D7E5",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rqlorat8",
+      "id": "11",
+      "bbox": [
+        1172,
+        393,
+        342,
+        112
+      ],
+      "geometry": "roundRect",
+      "text": "仿真采用匀加速度离散积分。",
+      "textPreview": "仿真采用匀加速度离散积分。",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 17,
+        "typeface": "Microsoft YaHei",
+        "color": "#526579",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "仿真采用匀加速度离散积分。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "仿真采用匀加速度离散积分。",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#526579",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "仿真采用匀加速度离散积分。",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#526579",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#E9F9F6",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sru5kfut",
+      "id": "12",
+      "bbox": [
+        86,
+        513,
+        1428,
+        43
+      ],
+      "geometry": "roundRect",
+      "text": "LaTeX：v_{t+1}=\\max\\{0,v_t+\\frac{F_t-R_t}{m}\\Delta t\\},\\quad x_{t+1}=x_t+\\frac{v_t+v_{t+1}}{2}\\Delta t",
+      "textPreview": "LaTeX：v_{t+1}=\\max\\{0,v_t+\\frac{F_t-R_t}{m}\\Delta t\\},\\quad x_{t+1}=x_t+\\frac{v_t+v_{t+1}}{2}\\Delta t",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15,
+        "typeface": "Cambria Math",
+        "color": "#526579",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "LaTeX：v_{t+1}=\\max\\{0,v_t+\\frac{F_t-R_t}{m}\\Delta t\\},\\quad x_{t+1}=x_t+\\frac{v_t+v_{t+1}}{2}\\Delta t"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "LaTeX：v_{t+1}=\\max\\{0,v_t+\\frac{F_t-R_t}{m}\\Delta t\\},\\quad x_{t+1}=x_t+\\frac{v_t+v_{t+1}}{2}\\Delta t",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Cambria Math",
+            "color": "#526579",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "LaTeX：v_{t+1}=\\max\\{0,v_t+\\frac{F_t-R_t}{m}\\Delta t\\},\\quad x_{t+1}=x_t+\\frac{v_t+v_{t+1}}{2}\\Delta t",
+              "fontSize": 15,
+              "typeface": "Cambria Math",
+              "color": "#526579",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#F4F7FA",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ds36tkbe",
+      "id": "13",
+      "bbox": [
+        86,
+        565,
+        250,
+        34
+      ],
+      "geometry": "rect",
+      "text": "线路总阻力",
+      "textPreview": "线路总阻力",
+      "resolvedFontSize": 18.33,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 20,
+        "typeface": "Microsoft YaHei",
+        "color": "#07867F",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.92,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "线路总阻力"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "线路总阻力",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Microsoft YaHei",
+            "color": "#07867F",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "线路总阻力",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#07867F",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ilsne5cr",
+      "id": "14",
+      "bbox": [
+        86,
+        603,
+        1060,
+        112
+      ],
+      "geometry": "roundRect",
+      "text": "R(v,x) = A + B(3.6v) + C(3.6v)² + mg·i(x)/1000 + mg·600/[1000R꜀(x)]",
+      "textPreview": "R(v,x) = A + B(3.6v) + C(3.6v)² + mg·i(x)/1000 + mg·600/[1000R꜀(x)]",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 30,
+        "typeface": "Cambria Math",
+        "color": "#0B2A53",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "R(v,x) = A + B(3.6v) + C(3.6v)² + mg·i(x)/1000 + mg·600/[1000R꜀(x)]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "R(v,x) = A + B(3.6v) + C(3.6v)² + mg·i(x)/1000 + mg·600/[1000R꜀(x)]",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Cambria Math",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "R(v,x) = A + B(3.6v) + C(3.6v)² + mg·i(x)/1000 + mg·600/[1000R꜀(x)]",
+              "fontSize": 30,
+              "typeface": "Cambria Math",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C8D7E5",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3m14natc",
+      "id": "15",
+      "bbox": [
+        1172,
+        603,
+        342,
+        112
+      ],
+      "geometry": "roundRect",
+      "text": "依次包含Davis基本阻力、坡度阻力和曲线阻力。",
+      "textPreview": "依次包含Davis基本阻力、坡度阻力和曲线阻力。",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 17,
+        "typeface": "Microsoft YaHei",
+        "color": "#526579",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "依次包含Davis基本阻力、坡度阻力和曲"
+          },
+          {
+            "index": 2,
+            "text": "线阻力。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "依次包含Davis基本阻力、坡度阻力和曲线阻力。",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#526579",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "依次包含Davis基本阻力、坡度阻力和曲线阻力。",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#526579",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#E9F9F6",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4na5gvux",
+      "id": "16",
+      "bbox": [
+        86,
+        723,
+        1428,
+        43
+      ],
+      "geometry": "roundRect",
+      "text": "LaTeX：R(v,x)=A+B(3.6v)+C(3.6v)^2+mg\\frac{i(x)}{1000}+mg\\frac{600}{1000R_c(x)}",
+      "textPreview": "LaTeX：R(v,x)=A+B(3.6v)+C(3.6v)^2+mg\\frac{i(x)}{1000}+mg\\frac{600}{1000R_c(x)}",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15,
+        "typeface": "Cambria Math",
+        "color": "#526579",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "LaTeX：R(v,x)=A+B(3.6v)+C(3.6v)^2+mg\\frac{i(x)}{1000}+mg\\frac{600}{1000R_c(x)}"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "LaTeX：R(v,x)=A+B(3.6v)+C(3.6v)^2+mg\\frac{i(x)}{1000}+mg\\frac{600}{1000R_c(x)}",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Cambria Math",
+            "color": "#526579",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "LaTeX：R(v,x)=A+B(3.6v)+C(3.6v)^2+mg\\frac{i(x)}{1000}+mg\\frac{600}{1000R_c(x)}",
+              "fontSize": 15,
+              "typeface": "Cambria Math",
+              "color": "#526579",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#F4F7FA",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "experiment_name": "lower_sac_smoke",
+  "description": "Quick pipeline check; not used as a research result.",
+  "parameters": {
+    "experiment_stage": "lower",
+    "lower_algorithm": "sac",
+    "share_lower_continuous": true,
+    "lower_policy_mode": "fresh",
+    "lower_bc_episodes": 0,
+    "lower_episodes": 2,
+    "lower_log_interval": 1,
+    "lower_plot_interval": 0,
+    "lower_target_span": 0,
+    "lower_arrival_tolerance": 0.5,
+    "runtime_adjustment_span": 0,
+    "dwell_adjustment_span": 10,
+    "up_trains": 1,
+    "down_trains": 1,
+    "seed": 7,
+    "lower_device": "cpu"
+  }
+}

@@ -1,0 +1,142 @@
+{"kind":"deck","id":"pr/pb4dfd","name":"Deck"}
+{"kind":"layout","layoutId":"6295fa2f-145c-4dfe-93ac-7c64c11a034f","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"dd11842a-62b6-43dd-a8bd-9f81d182e005","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/eavp1y","slide":1,"title":"下层列车纵向动力学","textShapes":15}
+{"kind":"textbox","id":"sh/876hgjmd","slide":1,"text":"下层列车纵向动力学","textPreview":"下层列车纵向动力学","textChars":9,"textLines":1,"bbox":[72,40,1456,62]}
+{"kind":"textbox","id":"sh/76x0ne5s","slide":1,"text":"SAC下层控制","textPreview":"SAC下层控制","textChars":7,"textLines":1,"bbox":[72,105,220,34]}
+{"kind":"shape","id":"sh/m5oze94n","slide":1,"bbox":[72,145,1456,0]}
+{"kind":"textbox","id":"sh/l4vilon2","slide":1,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1450,842,78,28]}
+{"kind":"textbox","id":"sh/k3mhcjmh","slide":1,"text":"运动方程","textPreview":"运动方程","textChars":4,"textLines":1,"bbox":[86,170,250,34]}
+{"kind":"textbox","id":"sh/z2d0je5w","slide":1,"text":"dx/dt = v，      m·dv/dt = F − R(v,x)","textPreview":"dx/dt = v，      m·dv/dt = F − R(v,x)","textChars":36,"textLines":1,"bbox":[86,208,1060,90]}
+{"kind":"textbox","id":"sh/yh4za94b","slide":1,"text":"x为位置，v为速度，F为执行力，m为列车质量。","textPreview":"x为位置，v为速度，F为执行力，m为列车质量。","textChars":23,"textLines":1,"bbox":[1172,208,342,90]}
+{"kind":"textbox","id":"sh/50zix8n6","slide":1,"text":"LaTeX：\\dot{x}=v,\\quad m\\dot{v}=F-R(v,x)","textPreview":"LaTeX：\\dot{x}=v,\\quad m\\dot{v}=F-R(v,x)","textChars":39,"textLines":1,"bbox":[86,306,1428,43]}
+{"kind":"textbox","id":"sh/4zq1o3ml","slide":1,"text":"离散状态更新","textPreview":"离散状态更新","textChars":6,"textLines":1,"bbox":[86,355,250,34]}
+{"kind":"textbox","id":"sh/qpcni5cn","slide":1,"text":"vₜ₊₁ = max[0, vₜ + (Fₜ − Rₜ)Δt/m]\nxₜ₊₁ = xₜ + (vₜ + vₜ₊₁)Δt/2","textPreview":"vₜ₊₁ = max[0, vₜ + (Fₜ − Rₜ)Δt/m] | xₜ₊₁ = xₜ + (vₜ + vₜ₊₁)Δt/2","textChars":61,"textLines":2,"bbox":[86,393,1060,112]}
+{"kind":"textbox","id":"sh/rqlorat8","slide":1,"text":"仿真采用匀加速度离散积分。","textPreview":"仿真采用匀加速度离散积分。","textChars":13,"textLines":1,"bbox":[1172,393,342,112]}
+{"kind":"textbox","id":"sh/sru5kfut","slide":1,"text":"LaTeX：v_{t+1}=\\max\\{0,v_t+\\frac{F_t-R_t}{m}\\Delta t\\},\\quad x_{t+1}=x_t+\\frac{v_t+v_{t+1}}{2}\\Delta t","textPreview":"LaTeX：v_{t+1}=\\max\\{0,v_t+\\frac{F_t-R_t}{m}\\Delta t\\},\\quad x_{t+1}=x_t+\\frac{v_t+v_{t+1}}{2}\\Delta t","textChars":101,"textLines":1,"bbox":[86,513,1428,43]}
+{"kind":"textbox","id":"sh/ds36tkbe","slide":1,"text":"线路总阻力","textPreview":"线路总阻力","textChars":5,"textLines":1,"bbox":[86,565,250,34]}
+{"kind":"textbox","id":"sh/ilsne5cr","slide":1,"text":"R(v,x) = A + B(3.6v) + C(3.6v)² + mg·i(x)/1000 + mg·600/[1000R꜀(x)]","textPreview":"R(v,x) = A + B(3.6v) + C(3.6v)² + mg·i(x)/1000 + mg·600/[1000R꜀(x)]","textChars":67,"textLines":1,"bbox":[86,603,1060,112]}
+{"kind":"textbox","id":"sh/3m14natc","slide":1,"text":"依次包含Davis基本阻力、坡度阻力和曲线阻力。","textPreview":"依次包含Davis基本阻力、坡度阻力和曲线阻力。","textChars":24,"textLines":1,"bbox":[1172,603,342,112]}
+{"kind":"textbox","id":"sh/4na5gvux","slide":1,"text":"LaTeX：R(v,x)=A+B(3.6v)+C(3.6v)^2+mg\\frac{i(x)}{1000}+mg\\frac{600}{1000R_c(x)}","textPreview":"LaTeX：R(v,x)=A+B(3.6v)+C(3.6v)^2+mg\\frac{i(x)}{1000}+mg\\frac{600}{1000R_c(x)}","textChars":77,"textLines":1,"bbox":[86,723,1428,43]}
+{"kind":"notes","id":"nt/eavp1y","slide":1,"text":"公式依据当前项目代码：timetable/train_model.py；timetable/lower_control.py。公式与LaTeX源码均为可编辑文本。"}
+{"kind":"slide","id":"sl/i2lgrg","slide":2,"title":"SAC状态与连续动作","textShapes":15}
+{"kind":"textbox","id":"sh/5grml0re","slide":2,"text":"SAC状态与连续动作","textPreview":"SAC状态与连续动作","textChars":10,"textLines":1,"bbox":[72,40,1456,62]}
+{"kind":"textbox","id":"sh/idgnq5s3","slide":2,"text":"SAC下层控制","textPreview":"SAC下层控制","textChars":7,"textLines":1,"bbox":[72,105,220,34]}
+{"kind":"shape","id":"sh/3e94ja98","slide":2,"bbox":[72,145,1456,0]}
+{"kind":"textbox","id":"sh/gby5ovax","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1450,842,78,28]}
+{"kind":"textbox","id":"sh/hc7mh0ri","slide":2,"text":"16维共享状态","textPreview":"16维共享状态","textChars":7,"textLines":1,"bbox":[86,170,250,34]}
+{"kind":"textbox","id":"sh/u9g3mlsr","slide":2,"text":"sₜᴸ = [sₜᵐᵒᵗⁱᵒⁿ, sₜˢᶜʰᵉᵈᵘˡᵉ, sₜᵗʳᵃⁱⁿ, sₜˡⁱⁿᵉ, sₜᶜᵒⁿᵗᵉˣᵗ]","textPreview":"sₜᴸ = [sₜᵐᵒᵗⁱᵒⁿ, sₜˢᶜʰᵉᵈᵘˡᵉ, sₜᵗʳᵃⁱⁿ, sₜˡⁱⁿᵉ, sₜᶜᵒⁿᵗᵉˣᵗ]","textChars":56,"textLines":1,"bbox":[86,208,1060,92]}
+{"kind":"textbox","id":"sh/vap4fq9c","slide":2,"text":"状态包含运动、时刻、载重、线路条件以及上下行和站间编号。","textPreview":"状态包含运动、时刻、载重、线路条件以及上下行和站间编号。","textChars":28,"textLines":1,"bbox":[1172,208,342,92]}
+{"kind":"textbox","id":"sh/87ylkval","slide":2,"text":"LaTeX：s_t^L=[s_t^{motion},s_t^{schedule},s_t^{train},s_t^{line},s_t^{context}]","textPreview":"LaTeX：s_t^L=[s_t^{motion},s_t^{schedule},s_t^{train},s_t^{line},s_t^{context}]","textChars":78,"textLines":1,"bbox":[86,308,1428,43]}
+{"kind":"textbox","id":"sh/t87mdgr6","slide":2,"text":"时刻进度偏差","textPreview":"时刻进度偏差","textChars":6,"textLines":1,"bbox":[86,360,250,34]}
+{"kind":"textbox","id":"sh/9kripgzi","slide":2,"text":"eₜˢᶜʰ = Tᵗᵃʳ · |xₜ/L − t/Tᵗᵃʳ|","textPreview":"eₜˢᶜʰ = Tᵗᵃʳ · |xₜ/L − t/Tᵗᵃʳ|","textChars":30,"textLines":1,"bbox":[86,398,1060,92]}
+{"kind":"textbox","id":"sh/oji1wbyx","slide":2,"text":"将空间进度和时间进度之差转换为秒级偏差。","textPreview":"将空间进度和时间进度之差转换为秒级偏差。","textChars":20,"textLines":1,"bbox":[1172,398,342,92]}
+{"kind":"textbox","id":"sh/ni90n6hc","slide":2,"text":"LaTeX：e_t^{sch}=T^{tar}\\left|\\frac{x_t}{L}-\\frac{t}{T^{tar}}\\right|","textPreview":"LaTeX：e_t^{sch}=T^{tar}\\left|\\frac{x_t}{L}-\\frac{t}{T^{tar}}\\right|","textChars":67,"textLines":1,"bbox":[86,498,1428,43]}
+{"kind":"textbox","id":"sh/mh0ju1gr","slide":2,"text":"动作与牵引特性","textPreview":"动作与牵引特性","textChars":7,"textLines":1,"bbox":[86,550,250,34]}
+{"kind":"textbox","id":"sh/1w7ilwzm","slide":2,"text":"Fᵗʳₘₐₓ(v) = min(Fₘₐₓ, Pₘₐₓ/max(v,ε))\nFᵖʳᵒᵖ = a·Fᵗʳₘₐₓ(v), a≥0；   Fᵖʳᵒᵖ = a·Fᵇʳₘₐₓ, a<0","textPreview":"Fᵗʳₘₐₓ(v) = min(Fₘₐₓ, Pₘₐₓ/max(v,ε)) | Fᵖʳᵒᵖ = a·Fᵗʳₘₐₓ(v), a≥0；   Fᵖʳᵒᵖ = a·Fᵇʳₘₐₓ, a<0","textChars":86,"textLines":2,"bbox":[86,588,1060,132]}
+{"kind":"textbox","id":"sh/0vy1sby1","slide":2,"text":"actor输出a∈[−1,1]。正值牵引，负值制动。","textPreview":"actor输出a∈[−1,1]。正值牵引，负值制动。","textChars":26,"textLines":1,"bbox":[1172,588,342,132]}
+{"kind":"textbox","id":"sh/zup0j6hg","slide":2,"text":"LaTeX：F_{tr,max}(v)=\\min(F_{max},\\frac{P_{max}}{\\max(v,\\varepsilon)}),\\quad F^{prop}=\\begin{cases}aF_{tr,max}(v),&a\\ge0\\\\aF_{br,max},&a<0\\end{cases}","textPreview":"LaTeX：F_{tr,max}(v)=\\min(F_{max},\\frac{P_{max}}{\\max(v,\\varepsilon)}),\\quad F^{prop}=\\begin{cases}aF_{tr,max}(v),&a\\ge0\\\\aF_{br,max},&a<0...","textChars":148,"textLines":1,"bbox":[86,728,1428,43]}
+{"kind":"notes","id":"nt/i2lgrg","slide":2,"text":"公式依据当前项目代码：timetable/lower_control.py；timetable/lower_continuous.py；timetable/train_model.py。公式与LaTeX源码均为可编辑文本。"}
+{"kind":"slide","id":"sl/s3w7nq","slide":3,"title":"安全投影与下层奖励","textShapes":15}
+{"kind":"textbox","id":"sh/dsnm5wvu","slide":3,"text":"安全投影与下层奖励","textPreview":"安全投影与下层奖励","textChars":9,"textLines":1,"bbox":[72,40,1456,62]}
+{"kind":"textbox","id":"sh/qpwnu1wj","slide":3,"text":"SAC下层控制","textPreview":"SAC下层控制","textChars":7,"textLines":1,"bbox":[72,105,220,34]}
+{"kind":"shape","id":"sh/rq5436do","slide":3,"bbox":[72,145,1456,0]}
+{"kind":"textbox","id":"sh/0fy50bel","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1450,842,78,28]}
+{"kind":"textbox","id":"sh/1g7m9gv6","slide":3,"text":"最小干预安全投影","textPreview":"最小干预安全投影","textChars":8,"textLines":1,"bbox":[86,170,250,34]}
+{"kind":"textbox","id":"sh/etwny1wf","slide":3,"text":"Fₜᵉˣᵉᶜ = Π𝒞₍ₛₜ₎(Fₜᵖʳᵒᵖ) = arg min |F − Fₜᵖʳᵒᵖ|，  F∈𝒞(sₜ)","textPreview":"Fₜᵉˣᵉᶜ = Π𝒞₍ₛₜ₎(Fₜᵖʳᵒᵖ) = arg min |F − Fₜᵖʳᵒᵖ|，  F∈𝒞(sₜ)","textChars":58,"textLines":1,"bbox":[86,208,1060,102]}
+{"kind":"textbox","id":"sh/zep476d0","slide":3,"text":"安全集合包含限速、牵引功率、制动力、加速度和终点停车约束。","textPreview":"安全集合包含限速、牵引功率、制动力、加速度和终点停车约束。","textChars":29,"textLines":1,"bbox":[1172,208,342,102]}
+{"kind":"textbox","id":"sh/ojy54veh","slide":3,"text":"LaTeX：F_t^{exec}=\\Pi_{\\mathcal C(s_t)}(F_t^{prop})=\\arg\\min_{F\\in\\mathcal C(s_t)}|F-F_t^{prop}|","textPreview":"LaTeX：F_t^{exec}=\\Pi_{\\mathcal C(s_t)}(F_t^{prop})=\\arg\\min_{F\\in\\mathcal C(s_t)}|F-F_t^{prop}|","textChars":95,"textLines":1,"bbox":[86,318,1428,43]}
+{"kind":"textbox","id":"sh/9k76dgv2","slide":3,"text":"四类奖励","textPreview":"四类奖励","textChars":4,"textLines":1,"bbox":[86,370,250,34]}
+{"kind":"textbox","id":"sh/ds321svy","slide":3,"text":"rₜᴸ = rₜᵗⁱᵐᵉ + rₜᵉⁿᵉʳᵍʸ + rₜᶜᵒᵐᶠᵒʳᵗ + rₜˢᵃᶠᵉᵗʸ","textPreview":"rₜᴸ = rₜᵗⁱᵐᵉ + rₜᵉⁿᵉʳᵍʸ + rₜᶜᵒᵐᶠᵒʳᵗ + rₜˢᵃᶠᵉᵗʸ","textChars":46,"textLines":1,"bbox":[86,408,1060,92]}
+{"kind":"textbox","id":"sh/crul8net","slide":3,"text":"准点是主要目标。能耗和舒适性用于同等可行方案之间的优化。","textPreview":"准点是主要目标。能耗和舒适性用于同等可行方案之间的优化。","textChars":28,"textLines":1,"bbox":[1172,408,342,92]}
+{"kind":"textbox","id":"sh/rqlkzid8","slide":3,"text":"LaTeX：r_t^L=r_t^{time}+r_t^{energy}+r_t^{comfort}+r_t^{safety}","textPreview":"LaTeX：r_t^L=r_t^{time}+r_t^{energy}+r_t^{comfort}+r_t^{safety}","textChars":62,"textLines":1,"bbox":[86,508,1428,43]}
+{"kind":"textbox","id":"sh/q5c36dwn","slide":3,"text":"奖励分量示例","textPreview":"奖励分量示例","textChars":6,"textLines":1,"bbox":[86,560,250,34]}
+{"kind":"textbox","id":"sh/1wn25sva","slide":3,"text":"rₜᵉⁿᵉʳᵍʸ = −wᴱ·ΔEₜ/Eʳᵉᶠ\nrₜᶜᵒᵐᶠᵒʳᵗ = −wᴶ|jₜ|Δt\nrₜˢᵃᶠᵉᵗʸ = −wˢ·𝟙(Fₜᵉˣᵉᶜ ≠ Fₜᵖʳᵒᵖ)","textPreview":"rₜᵉⁿᵉʳᵍʸ = −wᴱ·ΔEₜ/Eʳᵉᶠ | rₜᶜᵒᵐᶠᵒʳᵗ = −wᴶ|jₜ|Δt | rₜˢᵃᶠᵉᵗʸ = −wˢ·𝟙(Fₜᵉˣᵉᶜ ≠ Fₜᵖʳᵒᵖ)","textChars":80,"textLines":3,"bbox":[86,598,1060,140]}
+{"kind":"textbox","id":"sh/0vulcnep","slide":3,"text":"安全层纠正动作后，惩罚归因于actor提出的原始动作。","textPreview":"安全层纠正动作后，惩罚归因于actor提出的原始动作。","textChars":27,"textLines":1,"bbox":[1172,598,342,140]}
+{"kind":"textbox","id":"sh/zulk3id4","slide":3,"text":"LaTeX：r_t^{energy}=-w_E\\frac{\\Delta E_t}{E_{ref}},\\quad r_t^{comfort}=-w_J|j_t|\\Delta t,\\quad r_t^{safety}=-w_S\\mathbf1(F_t^{exec}\\ne F_t^{prop})","textPreview":"LaTeX：r_t^{energy}=-w_E\\frac{\\Delta E_t}{E_{ref}},\\quad r_t^{comfort}=-w_J|j_t|\\Delta t,\\quad r_t^{safety}=-w_S\\mathbf1(F_t^{exec}\\ne F_t...","textChars":145,"textLines":1,"bbox":[86,746,1428,43]}
+{"kind":"notes","id":"nt/s3w7nq","slide":3,"text":"公式依据当前项目代码：timetable/lower_control.py。公式与LaTeX源码均为可编辑文本。"}
+{"kind":"slide","id":"sl/lqptw8","slide":4,"title":"Soft Actor-Critic更新公式","textShapes":15}
+{"kind":"textbox","id":"sh/e9kj2hwf","slide":4,"text":"Soft Actor-Critic更新公式","textPreview":"Soft Actor-Critic更新公式","textChars":21,"textLines":1,"bbox":[72,40,1456,62]}
+{"kind":"textbox","id":"sh/1cbidwv6","slide":4,"text":"SAC下层控制","textPreview":"SAC下层控制","textChars":7,"textLines":1,"bbox":[72,105,220,34]}
+{"kind":"shape","id":"sh/gb214rel","slide":4,"bbox":[72,145,1456,0]}
+{"kind":"textbox","id":"sh/rm907mdo","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1450,842,78,28]}
+{"kind":"textbox","id":"sh/6l0jyhwj","slide":4,"text":"策略重参数化","textPreview":"策略重参数化","textChars":6,"textLines":1,"bbox":[86,165,250,34]}
+{"kind":"textbox","id":"sh/t8bi9cvu","slide":4,"text":"zₜ = μθ(sₜ) + σθ(sₜ)⊙ε，  ε∼𝒩(0,I)，  aₜ = tanh(zₜ)","textPreview":"zₜ = μθ(sₜ) + σθ(sₜ)⊙ε，  ε∼𝒩(0,I)，  aₜ = tanh(zₜ)","textChars":50,"textLines":1,"bbox":[86,203,1060,87]}
+{"kind":"textbox","id":"sh/s72107e9","slide":4,"text":"训练时高斯采样，评估时使用tanh(μ)。","textPreview":"训练时高斯采样，评估时使用tanh(μ)。","textChars":21,"textLines":1,"bbox":[1172,203,342,87]}
+{"kind":"textbox","id":"sh/ji9032ds","slide":4,"text":"LaTeX：z_t=\\mu_\\theta(s_t)+\\sigma_\\theta(s_t)\\odot\\epsilon,\\quad \\epsilon\\sim\\mathcal N(0,I),\\quad a_t=\\tanh(z_t)","textPreview":"LaTeX：z_t=\\mu_\\theta(s_t)+\\sigma_\\theta(s_t)\\odot\\epsilon,\\quad \\epsilon\\sim\\mathcal N(0,I),\\quad a_t=\\tanh(z_t)","textChars":112,"textLines":1,"bbox":[86,298,1428,43]}
+{"kind":"textbox","id":"sh/ih0zuxw7","slide":4,"text":"双Q目标值","textPreview":"双Q目标值","textChars":5,"textLines":1,"bbox":[86,345,250,34]}
+{"kind":"textbox","id":"sh/4ni5szu1","slide":4,"text":"yₜ = rₜ + γ(1−dₜ)[minᵢQφ̄ᵢ(sₜ₊₁,aₜ₊₁) − αlog πθ(aₜ₊₁|sₜ₊₁)]","textPreview":"yₜ = rₜ + γ(1−dₜ)[minᵢQφ̄ᵢ(sₜ₊₁,aₜ₊₁) − αlog πθ(aₜ₊₁|sₜ₊₁)]","textChars":59,"textLines":1,"bbox":[86,383,1060,102]}
+{"kind":"textbox","id":"sh/58rm14vm","slide":4,"text":"两个目标critic取较小值，降低Q值高估。","textPreview":"两个目标critic取较小值，降低Q值高估。","textChars":22,"textLines":1,"bbox":[1172,383,342,102]}
+{"kind":"textbox","id":"sh/ilgnqpcv","slide":4,"text":"LaTeX：y_t=r_t+\\gamma(1-d_t)[\\min_{i=1,2}Q_{\\bar\\phi_i}(s_{t+1},a_{t+1})-\\alpha\\log\\pi_\\theta(a_{t+1}|s_{t+1})]","textPreview":"LaTeX：y_t=r_t+\\gamma(1-d_t)[\\min_{i=1,2}Q_{\\bar\\phi_i}(s_{t+1},a_{t+1})-\\alpha\\log\\pi_\\theta(a_{t+1}|s_{t+1})]","textChars":110,"textLines":1,"bbox":[86,493,1428,43]}
+{"kind":"textbox","id":"sh/jmp4zudg","slide":4,"text":"critic与actor目标","textPreview":"critic与actor目标","textChars":14,"textLines":1,"bbox":[86,540,250,34]}
+{"kind":"textbox","id":"sh/wjy5ofup","slide":4,"text":"JQ(φᵢ)=𝔼[(Qφᵢ(sₜ,aₜ)−yₜ)²]\nJπ(θ)=𝔼[αlogπθ(aₜ|sₜ)−minᵢQφᵢ(sₜ,aₜ)]","textPreview":"JQ(φᵢ)=𝔼[(Qφᵢ(sₜ,aₜ)−yₜ)²] | Jπ(θ)=𝔼[αlogπθ(aₜ|sₜ)−minᵢQφᵢ(sₜ,aₜ)]","textChars":66,"textLines":2,"bbox":[86,578,1060,137]}
+{"kind":"textbox","id":"sh/hk7mxkva","slide":4,"text":"经验池保存屏蔽前的原始提出动作，actor和critic使用同一动作语义。","textPreview":"经验池保存屏蔽前的原始提出动作，actor和critic使用同一动作语义。","textChars":37,"textLines":1,"bbox":[1172,578,342,137]}
+{"kind":"textbox","id":"sh/uhgnm5cz","slide":4,"text":"LaTeX：J_Q(\\phi_i)=\\mathbb E[(Q_{\\phi_i}(s_t,a_t)-y_t)^2],\\quad J_\\pi(\\theta)=\\mathbb E[\\alpha\\log\\pi_\\theta(a_t|s_t)-\\min_iQ_{\\phi_i}(s_t,a_t)]","textPreview":"LaTeX：J_Q(\\phi_i)=\\mathbb E[(Q_{\\phi_i}(s_t,a_t)-y_t)^2],\\quad J_\\pi(\\theta)=\\mathbb E[\\alpha\\log\\pi_\\theta(a_t|s_t)-\\min_iQ_{\\phi_i}(s_t...","textChars":143,"textLines":1,"bbox":[86,723,1428,43]}
+{"kind":"notes","id":"nt/lqptw8","slide":4,"text":"公式依据当前项目代码：timetable/lower_continuous.py。公式与LaTeX源码均为可编辑文本。"}
+{"kind":"slide","id":"sl/1ofhfv","slide":5,"title":"MAPPO上层动作与时刻传播","textShapes":15}
+{"kind":"textbox","id":"sh/kjahk32d","slide":5,"text":"MAPPO上层动作与时刻传播","textPreview":"MAPPO上层动作与时刻传播","textChars":14,"textLines":1,"bbox":[72,40,1456,62]}
+{"kind":"textbox","id":"sh/zi10byls","slide":5,"text":"MAPPO上层规划","textPreview":"MAPPO上层规划","textChars":9,"textLines":1,"bbox":[72,105,220,34]}
+{"kind":"shape","id":"sh/yhszitk7","slide":5,"bbox":[72,145,1456,0]}
+{"kind":"textbox","id":"sh/983ih83u","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1450,842,78,28]}
+{"kind":"textbox","id":"sh/87u1on29","slide":5,"text":"上层动作映射","textPreview":"上层动作映射","textChars":6,"textLines":1,"bbox":[86,170,250,34]}
+{"kind":"textbox","id":"sh/7ml0filo","slide":5,"text":"ΔDᵢ,ₖ = Dₘₐₓ·tanh(uᵢ,ₖᵈʷᵉˡˡ)\nΔTᵢ,ₖ = Tₘₐₓ·tanh(uᵢ,ₖʳᵘⁿ)","textPreview":"ΔDᵢ,ₖ = Dₘₐₓ·tanh(uᵢ,ₖᵈʷᵉˡˡ) | ΔTᵢ,ₖ = Tₘₐₓ·tanh(uᵢ,ₖʳᵘⁿ)","textChars":55,"textLines":2,"bbox":[86,208,1060,112]}
+{"kind":"textbox","id":"sh/mlszmdk3","slide":5,"text":"当前课题设置Tₘₐₓ=0，上层主要优化停站时间。","textPreview":"当前课题设置Tₘₐₓ=0，上层主要优化停站时间。","textChars":24,"textLines":1,"bbox":[1172,208,342,112]}
+{"kind":"textbox","id":"sh/pczi5o3q","slide":5,"text":"LaTeX：\\Delta D_{i,k}=D_{max}\\tanh(u_{i,k}^{dwell}),\\quad \\Delta T_{i,k}=T_{max}\\tanh(u_{i,k}^{run})","textPreview":"LaTeX：\\Delta D_{i,k}=D_{max}\\tanh(u_{i,k}^{dwell}),\\quad \\Delta T_{i,k}=T_{max}\\tanh(u_{i,k}^{run})","textChars":99,"textLines":1,"bbox":[86,328,1428,43]}
+{"kind":"textbox","id":"sh/obqhcj25","slide":5,"text":"目标时刻与到达时刻","textPreview":"目标时刻与到达时刻","textChars":9,"textLines":1,"bbox":[86,380,250,34]}
+{"kind":"textbox","id":"sh/ax4vutgf","slide":5,"text":"Dᵢ,ₖ = Dᵢ,ₖ⁰ + ΔDᵢ,ₖ，    Tᵢ,ₖᵗᵃʳ = Tᵢ,ₖ⁰ + ΔTᵢ,ₖ\nAᵢ,ₖ₊₁ = Aᵢ,ₖ + Dᵢ,ₖ + Tᵢ,ₖᵃᶜᵗ","textPreview":"Dᵢ,ₖ = Dᵢ,ₖ⁰ + ΔDᵢ,ₖ，    Tᵢ,ₖᵗᵃʳ = Tᵢ,ₖ⁰ + ΔTᵢ,ₖ | Aᵢ,ₖ₊₁ = Aᵢ,ₖ + Dᵢ,ₖ + Tᵢ,ₖᵃᶜᵗ","textChars":79,"textLines":2,"bbox":[86,418,1060,122]}
+{"kind":"textbox","id":"sh/vydwnex0","slide":5,"text":"实际运行时间由下层策略仿真返回，不直接用目标时间替代。","textPreview":"实际运行时间由下层策略仿真返回，不直接用目标时间替代。","textChars":27,"textLines":1,"bbox":[1172,418,342,122]}
+{"kind":"textbox","id":"sh/wz6dwjyl","slide":5,"text":"LaTeX：D_{i,k}=D_{i,k}^0+\\Delta D_{i,k},\\quad T_{i,k}^{tar}=T_{i,k}^0+\\Delta T_{i,k},\\quad A_{i,k+1}=A_{i,k}+D_{i,k}+T_{i,k}^{act}","textPreview":"LaTeX：D_{i,k}=D_{i,k}^0+\\Delta D_{i,k},\\quad T_{i,k}^{tar}=T_{i,k}^0+\\Delta T_{i,k},\\quad A_{i,k+1}=A_{i,k}+D_{i,k}+T_{i,k}^{act}","textChars":129,"textLines":1,"bbox":[86,548,1428,43]}
+{"kind":"textbox","id":"sh/x0fepofq","slide":5,"text":"上下层调用关系","textPreview":"上下层调用关系","textChars":7,"textLines":1,"bbox":[86,600,250,34]}
+{"kind":"textbox","id":"sh/ilovytgb","slide":5,"text":"(Tᵃᶜᵗ,Eᵗʳ,Eʳᵉᵍ,χ,𝒳) = fθˢᴬᶜ(Tᵗᵃʳ,m,ℓ,d)","textPreview":"(Tᵃᶜᵗ,Eᵗʳ,Eʳᵉᵍ,χ,𝒳) = fθˢᴬᶜ(Tᵗᵃʳ,m,ℓ,d)","textChars":40,"textLines":1,"bbox":[86,638,1060,92]}
+{"kind":"textbox","id":"sh/jmxwryxw","slide":5,"text":"下层向上层返回实际时间、牵引能耗、再生能、可行性和运行轨迹。","textPreview":"下层向上层返回实际时间、牵引能耗、再生能、可行性和运行轨迹。","textChars":30,"textLines":1,"bbox":[1172,638,342,92]}
+{"kind":"textbox","id":"sh/kn6d03yh","slide":5,"text":"LaTeX：(T^{act},E^{tr},E^{reg},\\chi,\\mathcal X)=f_\\theta^{SAC}(T^{tar},m,\\ell,d)","textPreview":"LaTeX：(T^{act},E^{tr},E^{reg},\\chi,\\mathcal X)=f_\\theta^{SAC}(T^{tar},m,\\ell,d)","textChars":79,"textLines":1,"bbox":[86,738,1428,43]}
+{"kind":"notes","id":"nt/1ofhfv","slide":5,"text":"公式依据当前项目代码：timetable/online_hierarchical.py。公式与LaTeX源码均为可编辑文本。"}
+{"kind":"slide","id":"sl/p5j8uc","slide":6,"title":"多列车节能与安全目标","textShapes":15}
+{"kind":"textbox","id":"sh/l8n2po32","slide":6,"text":"多列车节能与安全目标","textPreview":"多列车节能与安全目标","textChars":10,"textLines":1,"bbox":[72,40,1456,62]}
+{"kind":"textbox","id":"sh/y5wju94r","slide":6,"text":"MAPPO上层规划","textPreview":"MAPPO上层规划","textChars":9,"textLines":1,"bbox":[72,105,220,34]}
+{"kind":"shape","id":"sh/z65k3elc","slide":6,"bbox":[72,145,1456,0]}
+{"kind":"textbox","id":"sh/cje1szml","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1450,842,78,28]}
+{"kind":"textbox","id":"sh/xkn21436","slide":6,"text":"再生能匹配","textPreview":"再生能匹配","textChars":5,"textLines":1,"bbox":[86,170,250,34]}
+{"kind":"textbox","id":"sh/ahcjq94f","slide":6,"text":"Eₘₐₜcₕ = Σz,b min(Ez,bᵗʳ, Ez,bʳᵉᵍ)，    ρʳᵉᵍ = Eₘₐₜcₕ/(Eʳᵉᵍ+ε)","textPreview":"Eₘₐₜcₕ = Σz,b min(Ez,bᵗʳ, Ez,bʳᵉᵍ)，    ρʳᵉᵍ = Eₘₐₜcₕ/(Eʳᵉᵍ+ε)","textChars":61,"textLines":1,"bbox":[86,208,1060,102]}
+{"kind":"textbox","id":"sh/bi5kzel0","slide":6,"text":"按供电分区和时间窗统计牵引需求与再生制动能量的重叠。","textPreview":"按供电分区和时间窗统计牵引需求与再生制动能量的重叠。","textChars":26,"textLines":1,"bbox":[1172,208,342,102]}
+{"kind":"textbox","id":"sh/ofu1ozmp","slide":6,"text":"LaTeX：E_{match}=\\sum_{z,b}\\min(E_{z,b}^{tr},E_{z,b}^{reg}),\\quad \\rho_{reg}=\\frac{E_{match}}{E_{reg}+\\varepsilon}","textPreview":"LaTeX：E_{match}=\\sum_{z,b}\\min(E_{z,b}^{tr},E_{z,b}^{reg}),\\quad \\rho_{reg}=\\frac{E_{match}}{E_{reg}+\\varepsilon}","textChars":113,"textLines":1,"bbox":[86,318,1428,43]}
+{"kind":"textbox","id":"sh/pg32x43a","slide":6,"text":"追踪间隔违反量","textPreview":"追踪间隔违反量","textChars":7,"textLines":1,"bbox":[86,370,250,34]}
+{"kind":"textbox","id":"sh/p0bqt8vu","slide":6,"text":"H = Σi,k max[0, hₘᵢₙ − (Aᵢ₊₁,ₖ − Aᵢ,ₖ)]","textPreview":"H = Σi,k max[0, hₘᵢₙ − (Aᵢ₊₁,ₖ − Aᵢ,ₖ)]","textChars":39,"textLines":1,"bbox":[86,408,1060,92]}
+{"kind":"textbox","id":"sh/oz2p03e9","slide":6,"text":"当相邻列车间隔低于最小追踪间隔时产生惩罚。","textPreview":"当相邻列车间隔低于最小追踪间隔时产生惩罚。","textChars":21,"textLines":1,"bbox":[1172,408,342,92]}
+{"kind":"textbox","id":"sh/nyt8rido","slide":6,"text":"LaTeX：H=\\sum_{i,k}\\max\\{0,h_{min}-(A_{i+1,k}-A_{i,k})\\}","textPreview":"LaTeX：H=\\sum_{i,k}\\max\\{0,h_{min}-(A_{i+1,k}-A_{i,k})\\}","textChars":55,"textLines":1,"bbox":[86,508,1428,43]}
+{"kind":"textbox","id":"sh/2xk7ydw3","slide":6,"text":"上层总体目标","textPreview":"上层总体目标","textChars":6,"textLines":1,"bbox":[86,560,250,34]}
+{"kind":"textbox","id":"sh/1wbqp8vi","slide":6,"text":"min Jᵁ = wᴱ(Eᵗʳ/Eʳᵉᶠ) − wᴿρʳᵉᵍ + wᴴH + wᶠNⁱⁿᶠᵉᵃˢⁱᵇˡᵉ","textPreview":"min Jᵁ = wᴱ(Eᵗʳ/Eʳᵉᶠ) − wᴿρʳᵉᵍ + wᴴH + wᶠNⁱⁿᶠᵉᵃˢⁱᵇˡᵉ","textChars":52,"textLines":1,"bbox":[86,598,1060,112]}
+{"kind":"textbox","id":"sh/0v2pw3ex","slide":6,"text":"上层在满足可行性和追踪间隔的前提下减少牵引能耗并提高再生能利用率。","textPreview":"上层在满足可行性和追踪间隔的前提下减少牵引能耗并提高再生能利用率。","textChars":33,"textLines":1,"bbox":[1172,598,342,112]}
+{"kind":"textbox","id":"sh/fut8nyds","slide":6,"text":"LaTeX：\\min J^U=w_E\\frac{E^{tr}}{E^{ref}}-w_R\\rho_{reg}+w_HH+w_FN_{infeasible}","textPreview":"LaTeX：\\min J^U=w_E\\frac{E^{tr}}{E^{ref}}-w_R\\rho_{reg}+w_HH+w_FN_{infeasible}","textChars":77,"textLines":1,"bbox":[86,718,1428,43]}
+{"kind":"notes","id":"nt/p5j8uc","slide":6,"text":"公式依据当前项目代码：timetable/online_hierarchical.py；timetable/mappo.py。公式与LaTeX源码均为可编辑文本。"}
+{"kind":"slide","id":"sl/3cmdak","slide":7,"title":"MAPPO集中训练与分散执行","textShapes":15}
+{"kind":"textbox","id":"sh/zmdsjqt4","slide":7,"text":"MAPPO集中训练与分散执行","textPreview":"MAPPO集中训练与分散执行","textChars":14,"textLines":1,"bbox":[72,40,1456,62]}
+{"kind":"textbox","id":"sh/0nm9cvap","slide":7,"text":"MAPPO上层规划","textPreview":"MAPPO上层规划","textChars":9,"textLines":1,"bbox":[72,105,220,34]}
+{"kind":"shape","id":"sh/18val0ba","slide":7,"bbox":[72,145,1456,0]}
+{"kind":"textbox","id":"sh/qhkr6lsn","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1450,842,78,28]}
+{"kind":"textbox","id":"sh/rit8fqts","slide":7,"text":"CTDE结构","textPreview":"CTDE结构","textChars":6,"textLines":1,"bbox":[86,165,250,34]}
+{"kind":"textbox","id":"sh/cj298vad","slide":7,"text":"aᵢ,ₖ ∼ πθᵢ(a|oᵢ,ₖ)，      Vφ = Vφ([o₁,ₖ,…,oN,ₖ])","textPreview":"aᵢ,ₖ ∼ πθᵢ(a|oᵢ,ₖ)，      Vφ = Vφ([o₁,ₖ,…,oN,ₖ])","textChars":47,"textLines":1,"bbox":[86,203,1060,87]}
+{"kind":"textbox","id":"sh/dkbah0by","slide":7,"text":"每列车actor只使用局部观测，集中critic使用所有列车状态。","textPreview":"每列车actor只使用局部观测，集中critic使用所有列车状态。","textChars":33,"textLines":1,"bbox":[1172,203,342,87]}
+{"kind":"textbox","id":"sh/adoripsr","slide":7,"text":"LaTeX：a_{i,k}\\sim\\pi_{\\theta_i}(a|o_{i,k}),\\quad V_\\phi=V_\\phi([o_{1,k},\\ldots,o_{N,k}])","textPreview":"LaTeX：a_{i,k}\\sim\\pi_{\\theta_i}(a|o_{i,k}),\\quad V_\\phi=V_\\phi([o_{1,k},\\ldots,o_{N,k}])","textChars":88,"textLines":1,"bbox":[86,298,1428,43]}
+{"kind":"textbox","id":"sh/vexsratc","slide":7,"text":"GAE优势估计","textPreview":"GAE优势估计","textChars":7,"textLines":1,"bbox":[86,345,250,34]}
+{"kind":"textbox","id":"sh/za1sv2hw","slide":7,"text":"δₖ = rₖ + γVφ(sₖ₊₁ᴳ) − Vφ(sₖᴳ)\nÂₖ = Σˡ(γλ)ˡδₖ₊ₗ","textPreview":"δₖ = rₖ + γVφ(sₖ₊₁ᴳ) − Vφ(sₖᴳ) | Âₖ = Σˡ(γλ)ˡδₖ₊ₗ","textChars":47,"textLines":2,"bbox":[86,383,1060,112]}
+{"kind":"textbox","id":"sh/y9sb2h0b","slide":7,"text":"当前λ=0.95，用于平衡优势估计的偏差与方差。","textPreview":"当前λ=0.95，用于平衡优势估计的偏差与方差。","textChars":24,"textLines":1,"bbox":[1172,383,342,112]}
+{"kind":"textbox","id":"sh/lcjaxcz2","slide":7,"text":"LaTeX：\\delta_k=r_k+\\gamma V_\\phi(s_{k+1}^G)-V_\\phi(s_k^G),\\quad \\hat A_k=\\sum_l(\\gamma\\lambda)^l\\delta_{k+l}","textPreview":"LaTeX：\\delta_k=r_k+\\gamma V_\\phi(s_{k+1}^G)-V_\\phi(s_k^G),\\quad \\hat A_k=\\sum_l(\\gamma\\lambda)^l\\delta_{k+l}","textChars":108,"textLines":1,"bbox":[86,503,1428,43]}
+{"kind":"textbox","id":"sh/kbat47ih","slide":7,"text":"PPO裁剪目标","textPreview":"PPO裁剪目标","textChars":7,"textLines":1,"bbox":[86,555,250,34]}
+{"kind":"textbox","id":"sh/7e1szmh8","slide":7,"text":"Lᶜˡⁱᵖ = 𝔼[min(rₖ(θᵢ)Âₖ, clip(rₖ(θᵢ),1−ε,1+ε)Âₖ)]","textPreview":"Lᶜˡⁱᵖ = 𝔼[min(rₖ(θᵢ)Âₖ, clip(rₖ(θᵢ),1−ε,1+ε)Âₖ)]","textChars":49,"textLines":1,"bbox":[86,593,1060,107]}
+{"kind":"textbox","id":"sh/mdsb6h0n","slide":7,"text":"当前ε=0.2，限制单次策略更新幅度。","textPreview":"当前ε=0.2，限制单次策略更新幅度。","textChars":19,"textLines":1,"bbox":[1172,593,342,107]}
+{"kind":"textbox","id":"sh/903u1wzy","slide":7,"text":"LaTeX：L^{clip}=\\mathbb E[\\min(r_k(\\theta_i)\\hat A_k,\\operatorname{clip}(r_k(\\theta_i),1-\\epsilon,1+\\epsilon)\\hat A_k)]","textPreview":"LaTeX：L^{clip}=\\mathbb E[\\min(r_k(\\theta_i)\\hat A_k,\\operatorname{clip}(r_k(\\theta_i),1-\\epsilon,1+\\epsilon)\\hat A_k)]","textChars":118,"textLines":1,"bbox":[86,708,1428,43]}
+{"kind":"notes","id":"nt/3cmdak","slide":7,"text":"公式依据当前项目代码：timetable/mappo.py。公式与LaTeX源码均为可编辑文本。"}
+{"kind":"slide","id":"sl/f6tktd","slide":8,"title":"上下层联合建模摘要","textShapes":10}
+{"kind":"textbox","id":"sh/l8velwvy","slide":8,"text":"上下层联合建模摘要","textPreview":"上下层联合建模摘要","textChars":9,"textLines":1,"bbox":[72,40,1456,62]}
+{"kind":"textbox","id":"sh/y54vahcn","slide":8,"text":"分层强化学习框架","textPreview":"分层强化学习框架","textChars":8,"textLines":1,"bbox":[72,105,220,34]}
+{"kind":"shape","id":"sh/z6dwjmds","slide":8,"bbox":[72,145,1456,0]}
+{"kind":"textbox","id":"sh/c3md87uh","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1450,842,78,28]}
+{"kind":"textbox","id":"sh/d4vehcv2","slide":8,"text":"上层 MAPPO：时刻表规划","textPreview":"上层 MAPPO：时刻表规划","textChars":14,"textLines":1,"bbox":[88,178,1424,72]}
+{"kind":"textbox","id":"sh/q1kv6xcb","slide":8,"text":"uᵁ → {ΔD, ΔT} → Tᵗᵃʳ","textPreview":"uᵁ → {ΔD, ΔT} → Tᵗᵃʳ","textChars":20,"textLines":1,"bbox":[88,250,1424,100]}
+{"kind":"textbox","id":"sh/b2dcf2dw","slide":8,"text":"下层 SAC：安全节能驾驶","textPreview":"下层 SAC：安全节能驾驶","textChars":13,"textLines":1,"bbox":[88,380,1424,72]}
+{"kind":"textbox","id":"sh/wz6dkbul","slide":8,"text":"(Tᵃᶜᵗ, E, χ, 𝒳) = fθˢᴬᶜ(Tᵗᵃʳ, m, ℓ, d)","textPreview":"(Tᵃᶜᵗ, E, χ, 𝒳) = fθˢᴬᶜ(Tᵗᵃʳ, m, ℓ, d)","textChars":39,"textLines":1,"bbox":[88,452,1424,100]}
+{"kind":"textbox","id":"sh/x0fetgv6","slide":8,"text":"联合优化目标","textPreview":"联合优化目标","textChars":6,"textLines":1,"bbox":[88,585,1424,72]}
+{"kind":"textbox","id":"sh/t436p8fm","slide":8,"text":"min J = wT·Jᵗⁱᵐᵉ + wE·Jᵉⁿᵉʳᵍʸ + wH·Jʰᵉᵃᵈʷᵃʸ + wS·Jˢᵃᶠᵉᵗʸ","textPreview":"min J = wT·Jᵗⁱᵐᵉ + wE·Jᵉⁿᵉʳᵍʸ + wH·Jʰᵉᵃᵈʷᵃʸ + wS·Jˢᵃᶠᵉᵗʸ","textChars":56,"textLines":1,"bbox":[88,657,1424,110]}
+{"kind":"textbox","id":"sh/s3u5g3y1","slide":8,"text":"LaTeX：\\min J=w_TJ^{time}+w_EJ^{energy}+w_HJ^{headway}+w_SJ^{safety}","textPreview":"LaTeX：\\min J=w_TJ^{time}+w_EJ^{energy}+w_HJ^{headway}+w_SJ^{safety}","textChars":67,"textLines":1,"bbox":[88,786,1424,40]}
+{"kind":"notes","id":"nt/f6tktd","slide":8,"text":"公式依据当前项目代码：timetable/online_hierarchical.py；timetable/lower_continuous.py；timetable/mappo.py。公式与LaTeX源码均为可编辑文本。"}

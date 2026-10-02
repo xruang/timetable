@@ -1,0 +1,41 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Experiment: SAC smoke (2 episodes)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/run_experiment.py",
+      "args": ["run", "lower_sac_smoke"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Experiment: lower DQN baseline",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/run_experiment.py",
+      "args": ["run", "lower_dqn_baseline"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Experiment: lower DDPG baseline",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/run_experiment.py",
+      "args": ["run", "lower_ddpg_baseline"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Experiment: lower SAC baseline",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/run_experiment.py",
+      "args": ["run", "lower_sac_baseline"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

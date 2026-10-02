@@ -1,0 +1,70 @@
+{"kind":"deck","id":"pr/userzd","name":"Deck"}
+{"kind":"layout","layoutId":"76cd0329-dad3-405c-a3c4-60d7eaaf3fe9","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"aa5701d4-f4d0-4446-89de-623888f23b4f","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/72vucd","slide":1,"title":"上层：多列车时刻表规划（MAPPO）","textShapes":26}
+{"kind":"shape","id":"sh/by5cnulw","slide":1,"name":"upper-MAPPO","bbox":[260,52,1080,220]}
+{"kind":"shape","id":"sh/wzedwzmh","slide":1,"name":"upper-header","bbox":[264,56,1072,66]}
+{"kind":"textbox","id":"sh/x0nup432","slide":1,"text":"上层：多列车时刻表规划（MAPPO）","textPreview":"上层：多列车时刻表规划（MAPPO）","textChars":18,"textLines":1,"bbox":[300,60,1000,56]}
+{"kind":"shape","id":"sh/m9cvq54f","slide":1,"name":"多列车智能体","bbox":[292,137,286,104]}
+{"kind":"shape","id":"sh/nalcjal0","slide":1,"name":"多列车智能体-header","bbox":[294,139,282,44]}
+{"kind":"textbox","id":"sh/obudsfml","slide":1,"name":"多列车智能体-title","text":"多列车智能体","textPreview":"多列车智能体","textChars":6,"textLines":1,"bbox":[299,139,272,44]}
+{"kind":"textbox","id":"sh/9w3ulk36","slide":1,"name":"多列车智能体-body","text":"独立 Actor\n集中 Critic","textPreview":"独立 Actor | 集中 Critic","textChars":18,"textLines":2,"bbox":[304,186,262,50]}
+{"kind":"shape","id":"sh/e5svm54j","slide":1,"name":"时刻表状态","bbox":[605,137,360,104]}
+{"kind":"shape","id":"sh/z6lcfal4","slide":1,"name":"时刻表状态-header","bbox":[607,139,356,44]}
+{"kind":"textbox","id":"sh/7ah8raxs","slide":1,"name":"时刻表状态-title","text":"时刻表状态","textPreview":"时刻表状态","textChars":5,"textLines":1,"bbox":[612,139,346,44]}
+{"kind":"textbox","id":"sh/69o7y5w7","slide":1,"name":"时刻表状态-body","text":"发车 / 到达 / 追踪间隔 / 供电分区","textPreview":"发车 / 到达 / 追踪间隔 / 供电分区","textChars":21,"textLines":1,"bbox":[617,186,336,50]}
+{"kind":"shape","id":"sh/twzqtkfi","slide":1,"name":"上层动作","bbox":[990,137,320,104]}
+{"kind":"shape","id":"sh/svqp0fed","slide":1,"name":"上层动作-header","bbox":[992,139,316,44]}
+{"kind":"textbox","id":"sh/fyh8vuxo","slide":1,"name":"上层动作-title","text":"上层动作","textPreview":"上层动作","textChars":4,"textLines":1,"bbox":[997,139,306,44]}
+{"kind":"textbox","id":"sh/ux872pw3","slide":1,"name":"上层动作-body","text":"站间运行时间调整\n停站时间调整","textPreview":"站间运行时间调整 | 停站时间调整","textChars":15,"textLines":2,"bbox":[1002,186,296,50]}
+{"kind":"shape","id":"sh/h0zqxkfu","slide":1,"name":"dispatch-arrow","bbox":[430,286,60,164]}
+{"kind":"shape","id":"sh/gzq94ze9","slide":1,"name":"dispatch-label","bbox":[498,316,310,92]}
+{"kind":"textbox","id":"sh/b2x8jqxk","slide":1,"text":"下发\n目标站间运行时间、停站时间、发车约束","textPreview":"下发 | 目标站间运行时间、停站时间、发车约束","textChars":21,"textLines":2,"bbox":[508,324,290,75]}
+{"kind":"shape","id":"sh/a147qlgz","slide":1,"name":"feedback-arrow","bbox":[882,292,60,158]}
+{"kind":"shape","id":"sh/excbytgn","slide":1,"name":"feedback-label","bbox":[952,316,310,92]}
+{"kind":"textbox","id":"sh/zylsryh8","slide":1,"text":"反馈\n实际运行时间、能耗、可行性、安全指标","textPreview":"反馈 | 实际运行时间、能耗、可行性、安全指标","textChars":21,"textLines":2,"bbox":[962,324,290,75]}
+{"kind":"shape","id":"sh/0zut03yd","slide":1,"name":"lower-SAC","bbox":[240,464,1120,374]}
+{"kind":"shape","id":"sh/103at8zy","slide":1,"name":"lower-header","bbox":[244,468,1112,68]}
+{"kind":"textbox","id":"sh/qtcbutgb","slide":1,"text":"下层：共享 SAC 站间驾驶控制","textPreview":"下层：共享 SAC 站间驾驶控制","textChars":16,"textLines":1,"bbox":[280,472,1040,58]}
+{"kind":"shape","id":"sh/ruls3yhw","slide":1,"name":"16维状态","bbox":[262,558,195,166]}
+{"kind":"shape","id":"sh/cvutw3yh","slide":1,"name":"16维状态-header","bbox":[264,560,191,46]}
+{"kind":"textbox","id":"sh/dw3a5oz2","slide":1,"name":"16维状态-title","text":"16维状态","textPreview":"16维状态","textChars":5,"textLines":1,"bbox":[269,560,181,46]}
+{"kind":"textbox","id":"sh/2psbq9gf","slide":1,"name":"16维状态-body","text":"速度、位置、时刻偏差\n载重、坡度、限速\n方向、站间编号","textPreview":"速度、位置、时刻偏差 | 载重、坡度、限速 | 方向、站间编号","textChars":27,"textLines":3,"bbox":[274,609,171,110]}
+{"kind":"shape","id":"sh/3q1szeh0","slide":1,"name":"SAC Actor","bbox":[482,558,224,166]}
+{"kind":"shape","id":"sh/lkre5cji","slide":1,"name":"SAC Actor-header","bbox":[484,560,220,46]}
+{"kind":"textbox","id":"sh/kjydw7ix","slide":1,"name":"SAC Actor-title","text":"SAC Actor","textPreview":"SAC Actor","textChars":9,"textLines":1,"bbox":[489,560,210,46]}
+{"kind":"textbox","id":"sh/jipw3m1c","slide":1,"name":"SAC Actor-body","text":"训练：高斯分布采样 μ, σ\n\n评估：策略均值 tanh(μ)","textPreview":"训练：高斯分布采样 μ, σ |  | 评估：策略均值 tanh(μ)","textChars":31,"textLines":3,"bbox":[494,609,200,110]}
+{"kind":"shape","id":"sh/yhgvuh0r","slide":1,"name":"连续动作","bbox":[732,558,170,166]}
+{"kind":"shape","id":"sh/xg7e1cj6","slide":1,"name":"连续动作-header","bbox":[734,560,166,46]}
+{"kind":"textbox","id":"sh/wfyds7il","slide":1,"name":"连续动作-title","text":"连续动作","textPreview":"连续动作","textChars":4,"textLines":1,"bbox":[739,560,156,46]}
+{"kind":"textbox","id":"sh/bepwz21g","slide":1,"name":"连续动作-body","text":"牵引 / 制动比例","textPreview":"牵引 / 制动比例","textChars":9,"textLines":1,"bbox":[744,609,146,110]}
+{"kind":"shape","id":"sh/atgvqx0v","slide":1,"name":"安全执行层","bbox":[928,558,210,210]}
+{"kind":"shape","id":"sh/9s7exsja","slide":1,"name":"安全执行层-header","bbox":[930,560,206,46]}
+{"kind":"textbox","id":"sh/oredonip","slide":1,"name":"安全执行层-title","text":"安全执行层","textPreview":"安全执行层","textChars":5,"textLines":1,"bbox":[935,560,196,46]}
+{"kind":"textbox","id":"sh/ovq54bil","slide":1,"name":"安全执行层-body","text":"牵引、功率、制动力\n及加速度硬约束\n\n预测超速时最小安全投影\n终点停车保护","textPreview":"牵引、功率、制动力 | 及加速度硬约束 |  | 预测超速时最小安全投影 | 终点停车保护","textChars":37,"textLines":5,"bbox":[940,609,186,154]}
+{"kind":"shape","id":"sh/pwzmxwj6","slide":1,"name":"列车与线路环境","bbox":[1164,558,176,166]}
+{"kind":"shape","id":"sh/2to3210v","slide":1,"name":"列车与线路环境-header","bbox":[1166,560,172,46]}
+{"kind":"textbox","id":"sh/nux4v610","slide":1,"name":"列车与线路环境-title","text":"列车与线路环境","textPreview":"列车与线路环境","textChars":7,"textLines":1,"bbox":[1171,560,162,46]}
+{"kind":"textbox","id":"sh/cjq58bix","slide":1,"name":"列车与线路环境-body","text":"Davis阻力、坡度\n曲线、限速\n纵向动力学","textPreview":"Davis阻力、坡度 | 曲线、限速 | 纵向动力学","textChars":22,"textLines":3,"bbox":[1176,609,152,110]}
+{"kind":"shape","id":"sh/xkzm1gji","slide":1,"name":"critic-replay","bbox":[480,754,230,60]}
+{"kind":"textbox","id":"sh/ax8n610r","slide":1,"text":"双 Critic + 经验回放池","textPreview":"双 Critic + 经验回放池","textChars":16,"textLines":1,"bbox":[490,761,210,46]}
+{"kind":"shape","id":"sh/bih4z61c","slide":1,"bbox":[457,641,25,0]}
+{"kind":"shape","id":"sh/snmlw7id","slide":1,"bbox":[706,641,26,0]}
+{"kind":"shape","id":"sh/dofmpcjy","slide":1,"bbox":[902,641,26,22]}
+{"kind":"shape","id":"sh/vil8vulg","slide":1,"bbox":[1138,641,26,22]}
+{"kind":"shape","id":"sh/uhc72pkv","slide":1,"bbox":[594,724,1,30]}
+{"kind":"shape","id":"sh/hk3qxk3m","slide":1,"bbox":[594,724,1,30]}
+{"kind":"textbox","id":"sh/gjup4f21","slide":1,"text":"Q值估计与策略更新","textPreview":"Q值估计与策略更新","textChars":9,"textLines":1,"bbox":[702,733,205,34]}
+{"kind":"shape","id":"sh/7e1oralk","slide":1,"name":"基础数据","bbox":[12,342,210,204]}
+{"kind":"shape","id":"sh/6ds7y5kz","slide":1,"name":"基础数据-header","bbox":[14,344,206,52]}
+{"kind":"textbox","id":"sh/tg36tk3q","slide":1,"name":"基础数据-title","text":"基础数据","textPreview":"基础数据","textChars":4,"textLines":1,"bbox":[19,344,196,52]}
+{"kind":"textbox","id":"sh/8fup0f25","slide":1,"name":"基础数据-body","text":"真实时刻表\n线路坡度 / 曲线 / 限速\n列车质量与牵引特性","textPreview":"真实时刻表 | 线路坡度 / 曲线 / 限速 | 列车质量与牵引特性","textChars":30,"textLines":3,"bbox":[24,399,186,142]}
+{"kind":"shape","id":"sh/jq1onal8","slide":1,"name":"结果","bbox":[1380,346,208,238]}
+{"kind":"shape","id":"sh/yps7u5k3","slide":1,"name":"结果-header","bbox":[1382,348,204,52]}
+{"kind":"textbox","id":"sh/2l8765ov","slide":1,"name":"结果-title","text":"结果","textPreview":"结果","textChars":2,"textLines":1,"bbox":[1387,348,194,52]}
+{"kind":"textbox","id":"sh/nmh8fq5g","slide":1,"name":"结果-body","text":"优化时刻表\n速度轨迹\n牵引 / 制动力曲线\n能耗与可行率","textPreview":"优化时刻表 | 速度轨迹 | 牵引 / 制动力曲线 | 能耗与可行率","textChars":28,"textLines":4,"bbox":[1392,403,184,176]}
+{"kind":"shape","id":"sh/onap8v61","slide":1,"bbox":[117,162,143,180]}
+{"kind":"shape","id":"sh/pojqh0n6","slide":1,"bbox":[117,546,145,95]}
+{"kind":"shape","id":"sh/apsra54r","slide":1,"bbox":[1340,162,144,184]}
+{"kind":"shape","id":"sh/ba18ja5c","slide":1,"bbox":[1340,584,144,57]}
+{"kind":"notes","id":"nt/72vucd","slide":1,"text":"根据用户提供的 SAC_上下层课题实现结构图.png 重建。所有模块、文字和箭头均为可编辑原生PPT对象。"}

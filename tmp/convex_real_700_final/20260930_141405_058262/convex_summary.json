@@ -1,0 +1,37 @@
+{
+  "status": "infeasible",
+  "section_name": "HC-DGNL",
+  "target_time_s": 87.0,
+  "solver_status_code": 3,
+  "solver_runtime_s": 0.004999876022338867,
+  "optimized_objective_kwh": null,
+  "actual_time_s": null,
+  "timetable_error_s": null,
+  "actual_traction_kwh": null,
+  "actual_regenerative_kwh": null,
+  "actual_net_energy_kwh": null,
+  "max_alpha_relative_error": null,
+  "max_beta_normalized_error": null,
+  "max_force_gap_kn": null,
+  "feasible": false,
+  "validation_messages": [
+    "Gurobi did not return an optimal solution (infeasible)"
+  ],
+  "numerical_terminal_speed_mps": 0.1,
+  "direction": "up",
+  "mass_t": 255.0,
+  "options": {
+    "spatial_segments": 700,
+    "speed_limit_ratio": 0.8,
+    "numerical_terminal_speed_mps": 0.1,
+    "arrival_tolerance_s": 0.5,
+    "alpha_relative_tolerance": 0.001,
+    "beta_normalized_tolerance": 0.001,
+    "physical_speed_tolerance_mps": 0.02,
+    "physical_force_tolerance_n": 100.0,
+    "physical_power_tolerance_w": 1000.0,
+    "physical_acceleration_tolerance_mps2": 0.0001,
+    "output_flag": false,
+    "time_limit_s": null
+  }
+}

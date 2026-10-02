@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "experiment_name": "lower_sac_baseline",
+  "description": "Legacy lower-only SAC baseline using 85% of the line speed limit.",
+  "parameters": {
+    "experiment_stage": "lower",
+    "lower_algorithm": "sac",
+    "share_lower_continuous": true,
+    "lower_policy_mode": "fresh",
+    "lower_bc_episodes": 0,
+    "lower_episodes": 5000,
+    "lower_log_interval": 10,
+    "lower_plot_interval": 100,
+    "lower_target_span": 0,
+    "lower_arrival_tolerance": 0.5,
+    "lower_speed_limit_ratio": 0.85,
+    "runtime_adjustment_span": 0,
+    "dwell_adjustment_span": 10,
+    "up_trains": 6,
+    "down_trains": 6,
+    "seed": 7,
+    "lower_device": "cpu"
+  }
+}

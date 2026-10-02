@@ -1,0 +1,1176 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/s3w7nq",
+    "id": "s3w7nq",
+    "slide": 3,
+    "layoutId": "dd11842a-62b6-43dd-a8bd-9f81d182e005",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "6295fa2f-145c-4dfe-93ac-7c64c11a034f",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FBFCFE",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Cambria Math",
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "dd11842a-62b6-43dd-a8bd-9f81d182e005",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "6295fa2f-145c-4dfe-93ac-7c64c11a034f",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "6295fa2f-145c-4dfe-93ac-7c64c11a034f",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dsnm5wvu",
+      "id": "1",
+      "bbox": [
+        72,
+        40,
+        1456,
+        62
+      ],
+      "geometry": "rect",
+      "text": "安全投影与下层奖励",
+      "textPreview": "安全投影与下层奖励",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 38,
+        "typeface": "Microsoft YaHei",
+        "color": "#0B2A53",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "安全投影与下层奖励"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "安全投影与下层奖励",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "typeface": "Microsoft YaHei",
+            "color": "#0B2A53",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "安全投影与下层奖励",
+              "fontSize": 38,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B2A53",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qpwnu1wj",
+      "id": "2",
+      "bbox": [
+        72,
+        105,
+        220,
+        34
+      ],
+      "geometry": "rect",
+      "text": "SAC下层控制",
+      "textPreview": "SAC下层控制",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 17,
+        "typeface": "Microsoft YaHei",
+        "color": "#07867F",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SAC下层控制"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SAC下层控制",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#07867F",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SAC下层控制",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#07867F",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rq5436do",
+      "id": "3",
+      "bbox": [
+        72,
+        145,
+        1456,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#07867F",
+      "lineWidth": 3
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0fy50bel",
+      "id": "4",
+      "bbox": [
+        1450,
+        842,
+        78,
+        28
+      ],
+      "geometry": "rect",
+      "text": "03",
+      "textPreview": "03",
+      "resolvedFontSize": 13.33,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14,
+        "typeface": "Microsoft YaHei",
+        "color": "#526579",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.95,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "03"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "03",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Microsoft YaHei",
+            "color": "#526579",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "03",
+              "fontSize": 14,
+              "typeface": "Microsoft YaHei",
+              "color": "#526579",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1g7m9gv6",
+      "id": "5",
+      "bbox": [
+        86,
+        170,
+        250,
+        34
+      ],
+      "geometry": "rect",
+      "text": "最小干预安全投影",
+      "textPreview": "最小干预安全投影",
+      "resolvedFontSize": 18.33,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 20,
+        "typeface": "Microsoft YaHei",
+        "color": "#07867F",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.92,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "最小干预安全投影"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "最小干预安全投影",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Microsoft YaHei",
+            "color": "#07867F",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "最小干预安全投影",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#07867F",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/etwny1wf",
+      "id": "6",
+      "bbox": [
+        86,
+        208,
+        1060,
+        102
+      ],
+      "geometry": "roundRect",
+      "text": "Fₜᵉˣᵉᶜ = Π𝒞₍ₛₜ₎(Fₜᵖʳᵒᵖ) = arg min |F − Fₜᵖʳᵒᵖ|，  F∈𝒞(sₜ)",
+      "textPreview": "Fₜᵉˣᵉᶜ = Π𝒞₍ₛₜ₎(Fₜᵖʳᵒᵖ) = arg min |F − Fₜᵖʳᵒᵖ|，  F∈𝒞(sₜ)",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 30,
+        "typeface": "Cambria Math",
+        "color": "#0B2A53",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Fₜᵉˣᵉᶜ = Π𝒞₍ₛₜ₎(Fₜᵖʳᵒᵖ) = arg min |F − Fₜᵖʳᵒᵖ|，  F∈𝒞(sₜ)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Fₜᵉˣᵉᶜ = Π𝒞₍ₛₜ₎(Fₜᵖʳᵒᵖ) = arg min |F − Fₜᵖʳᵒᵖ|，  F∈𝒞(sₜ)",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Cambria Math",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Fₜᵉˣᵉᶜ = Π𝒞₍ₛₜ₎(Fₜᵖʳᵒᵖ) = arg min |F − Fₜᵖʳᵒᵖ|，  F∈𝒞(sₜ)",
+              "fontSize": 30,
+              "typeface": "Cambria Math",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C8D7E5",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zep476d0",
+      "id": "7",
+      "bbox": [
+        1172,
+        208,
+        342,
+        102
+      ],
+      "geometry": "roundRect",
+      "text": "安全集合包含限速、牵引功率、制动力、加速度和终点停车约束。",
+      "textPreview": "安全集合包含限速、牵引功率、制动力、加速度和终点停车约束。",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 17,
+        "typeface": "Microsoft YaHei",
+        "color": "#526579",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "安全集合包含限速、牵引功率、制动力、"
+          },
+          {
+            "index": 2,
+            "text": "加速度和终点停车约束。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "安全集合包含限速、牵引功率、制动力、加速度和终点停车约束。",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#526579",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "安全集合包含限速、牵引功率、制动力、加速度和终点停车约束。",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#526579",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#E9F9F6",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ojy54veh",
+      "id": "8",
+      "bbox": [
+        86,
+        318,
+        1428,
+        43
+      ],
+      "geometry": "roundRect",
+      "text": "LaTeX：F_t^{exec}=\\Pi_{\\mathcal C(s_t)}(F_t^{prop})=\\arg\\min_{F\\in\\mathcal C(s_t)}|F-F_t^{prop}|",
+      "textPreview": "LaTeX：F_t^{exec}=\\Pi_{\\mathcal C(s_t)}(F_t^{prop})=\\arg\\min_{F\\in\\mathcal C(s_t)}|F-F_t^{prop}|",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15,
+        "typeface": "Cambria Math",
+        "color": "#526579",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "LaTeX：F_t^{exec}=\\Pi_{\\mathcal C(s_t)}(F_t^{prop})=\\arg\\min_{F\\in\\mathcal C(s_t)}|F-F_t^{prop}|"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "LaTeX：F_t^{exec}=\\Pi_{\\mathcal C(s_t)}(F_t^{prop})=\\arg\\min_{F\\in\\mathcal C(s_t)}|F-F_t^{prop}|",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Cambria Math",
+            "color": "#526579",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "LaTeX：F_t^{exec}=\\Pi_{\\mathcal C(s_t)}(F_t^{prop})=\\arg\\min_{F\\in\\mathcal C(s_t)}|F-F_t^{prop}|",
+              "fontSize": 15,
+              "typeface": "Cambria Math",
+              "color": "#526579",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#F4F7FA",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9k76dgv2",
+      "id": "9",
+      "bbox": [
+        86,
+        370,
+        250,
+        34
+      ],
+      "geometry": "rect",
+      "text": "四类奖励",
+      "textPreview": "四类奖励",
+      "resolvedFontSize": 18.33,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 20,
+        "typeface": "Microsoft YaHei",
+        "color": "#07867F",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.92,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "四类奖励"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "四类奖励",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Microsoft YaHei",
+            "color": "#07867F",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "四类奖励",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#07867F",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ds321svy",
+      "id": "10",
+      "bbox": [
+        86,
+        408,
+        1060,
+        92
+      ],
+      "geometry": "roundRect",
+      "text": "rₜᴸ = rₜᵗⁱᵐᵉ + rₜᵉⁿᵉʳᵍʸ + rₜᶜᵒᵐᶠᵒʳᵗ + rₜˢᵃᶠᵉᵗʸ",
+      "textPreview": "rₜᴸ = rₜᵗⁱᵐᵉ + rₜᵉⁿᵉʳᵍʸ + rₜᶜᵒᵐᶠᵒʳᵗ + rₜˢᵃᶠᵉᵗʸ",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 30,
+        "typeface": "Cambria Math",
+        "color": "#0B2A53",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "rₜᴸ = rₜᵗⁱᵐᵉ + rₜᵉⁿᵉʳᵍʸ + rₜᶜᵒᵐᶠᵒʳᵗ + rₜˢᵃᶠᵉᵗʸ"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "rₜᴸ = rₜᵗⁱᵐᵉ + rₜᵉⁿᵉʳᵍʸ + rₜᶜᵒᵐᶠᵒʳᵗ + rₜˢᵃᶠᵉᵗʸ",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Cambria Math",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "rₜᴸ = rₜᵗⁱᵐᵉ + rₜᵉⁿᵉʳᵍʸ + rₜᶜᵒᵐᶠᵒʳᵗ + rₜˢᵃᶠᵉᵗʸ",
+              "fontSize": 30,
+              "typeface": "Cambria Math",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C8D7E5",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/crul8net",
+      "id": "11",
+      "bbox": [
+        1172,
+        408,
+        342,
+        92
+      ],
+      "geometry": "roundRect",
+      "text": "准点是主要目标。能耗和舒适性用于同等可行方案之间的优化。",
+      "textPreview": "准点是主要目标。能耗和舒适性用于同等可行方案之间的优化。",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 17,
+        "typeface": "Microsoft YaHei",
+        "color": "#526579",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "准点是主要目标。能耗和舒适性用于同等"
+          },
+          {
+            "index": 2,
+            "text": "可行方案之间的优化。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "准点是主要目标。能耗和舒适性用于同等可行方案之间的优化。",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#526579",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "准点是主要目标。能耗和舒适性用于同等可行方案之间的优化。",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#526579",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#E9F9F6",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rqlkzid8",
+      "id": "12",
+      "bbox": [
+        86,
+        508,
+        1428,
+        43
+      ],
+      "geometry": "roundRect",
+      "text": "LaTeX：r_t^L=r_t^{time}+r_t^{energy}+r_t^{comfort}+r_t^{safety}",
+      "textPreview": "LaTeX：r_t^L=r_t^{time}+r_t^{energy}+r_t^{comfort}+r_t^{safety}",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15,
+        "typeface": "Cambria Math",
+        "color": "#526579",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "LaTeX：r_t^L=r_t^{time}+r_t^{energy}+r_t^{comfort}+r_t^{safety}"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "LaTeX：r_t^L=r_t^{time}+r_t^{energy}+r_t^{comfort}+r_t^{safety}",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Cambria Math",
+            "color": "#526579",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "LaTeX：r_t^L=r_t^{time}+r_t^{energy}+r_t^{comfort}+r_t^{safety}",
+              "fontSize": 15,
+              "typeface": "Cambria Math",
+              "color": "#526579",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#F4F7FA",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q5c36dwn",
+      "id": "13",
+      "bbox": [
+        86,
+        560,
+        250,
+        34
+      ],
+      "geometry": "rect",
+      "text": "奖励分量示例",
+      "textPreview": "奖励分量示例",
+      "resolvedFontSize": 18.33,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 20,
+        "typeface": "Microsoft YaHei",
+        "color": "#07867F",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.92,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "奖励分量示例"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "奖励分量示例",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Microsoft YaHei",
+            "color": "#07867F",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "奖励分量示例",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#07867F",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1wn25sva",
+      "id": "14",
+      "bbox": [
+        86,
+        598,
+        1060,
+        140
+      ],
+      "geometry": "roundRect",
+      "text": "rₜᵉⁿᵉʳᵍʸ = −wᴱ·ΔEₜ/Eʳᵉᶠ\nrₜᶜᵒᵐᶠᵒʳᵗ = −wᴶ|jₜ|Δt\nrₜˢᵃᶠᵉᵗʸ = −wˢ·𝟙(Fₜᵉˣᵉᶜ ≠ Fₜᵖʳᵒᵖ)",
+      "textPreview": "rₜᵉⁿᵉʳᵍʸ = −wᴱ·ΔEₜ/Eʳᵉᶠ | rₜᶜᵒᵐᶠᵒʳᵗ = −wᴶ|jₜ|Δt | rₜˢᵃᶠᵉᵗʸ = −wˢ·𝟙(Fₜᵉˣᵉᶜ ≠ Fₜᵖʳᵒᵖ)",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 30,
+        "typeface": "Cambria Math",
+        "color": "#0B2A53",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "rₜᵉⁿᵉʳᵍʸ = −wᴱ·ΔEₜ/Eʳᵉᶠ"
+          },
+          {
+            "index": 2,
+            "text": "rₜᶜᵒᵐᶠᵒʳᵗ = −wᴶ|jₜ|Δt"
+          },
+          {
+            "index": 3,
+            "text": "rₜˢᵃᶠᵉᵗʸ = −wˢ·𝟙(Fₜᵉˣᵉᶜ ≠ Fₜᵖʳᵒᵖ)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "rₜᵉⁿᵉʳᵍʸ = −wᴱ·ΔEₜ/Eʳᵉᶠ",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Cambria Math",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "rₜᵉⁿᵉʳᵍʸ = −wᴱ·ΔEₜ/Eʳᵉᶠ",
+              "fontSize": 30,
+              "typeface": "Cambria Math",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "rₜᶜᵒᵐᶠᵒʳᵗ = −wᴶ|jₜ|Δt",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Cambria Math",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "rₜᶜᵒᵐᶠᵒʳᵗ = −wᴶ|jₜ|Δt",
+              "fontSize": 30,
+              "typeface": "Cambria Math",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "rₜˢᵃᶠᵉᵗʸ = −wˢ·𝟙(Fₜᵉˣᵉᶜ ≠ Fₜᵖʳᵒᵖ)",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Cambria Math",
+            "color": "#0B2A53",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "rₜˢᵃᶠᵉᵗʸ = −wˢ·𝟙(Fₜᵉˣᵉᶜ ≠ Fₜᵖʳᵒᵖ)",
+              "fontSize": 30,
+              "typeface": "Cambria Math",
+              "color": "#0B2A53",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C8D7E5",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0vulcnep",
+      "id": "15",
+      "bbox": [
+        1172,
+        598,
+        342,
+        140
+      ],
+      "geometry": "roundRect",
+      "text": "安全层纠正动作后，惩罚归因于actor提出的原始动作。",
+      "textPreview": "安全层纠正动作后，惩罚归因于actor提出的原始动作。",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 17,
+        "typeface": "Microsoft YaHei",
+        "color": "#526579",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "安全层纠正动作后，惩罚归因于actor提"
+          },
+          {
+            "index": 2,
+            "text": "出的原始动作。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "安全层纠正动作后，惩罚归因于actor提出的原始动作。",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#526579",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "安全层纠正动作后，惩罚归因于actor提出的原始动作。",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#526579",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#E9F9F6",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zulk3id4",
+      "id": "16",
+      "bbox": [
+        86,
+        746,
+        1428,
+        43
+      ],
+      "geometry": "roundRect",
+      "text": "LaTeX：r_t^{energy}=-w_E\\frac{\\Delta E_t}{E_{ref}},\\quad r_t^{comfort}=-w_J|j_t|\\Delta t,\\quad r_t^{safety}=-w_S\\mathbf1(F_t^{exec}\\ne F_t^{prop})",
+      "textPreview": "LaTeX：r_t^{energy}=-w_E\\frac{\\Delta E_t}{E_{ref}},\\quad r_t^{comfort}=-w_J|j_t|\\Delta t,\\quad r_t^{safety}=-w_S\\mathbf1(F_t^{exec}\\ne F_t...",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15,
+        "typeface": "Cambria Math",
+        "color": "#526579",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 6,
+          "right": 12,
+          "bottom": 6,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "LaTeX：r_t^{energy}=-w_E\\frac{\\Delta E_t}{E_{ref}},\\quad r_t^{comfort}=-w_J|j_t|\\Delta t,\\quad r_t^{safety}=-w_S\\mathbf1(F_t^{exec}\\ne F_t^{prop})"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "LaTeX：r_t^{energy}=-w_E\\frac{\\Delta E_t}{E_{ref}},\\quad r_t^{comfort}=-w_J|j_t|\\Delta t,\\quad r_t^{safety}=-w_S\\mathbf1(F_t^{exec}\\ne F_t^{prop})",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Cambria Math",
+            "color": "#526579",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "LaTeX：r_t^{energy}=-w_E\\frac{\\Delta E_t}{E_{ref}},\\quad r_t^{comfort}=-w_J|j_t|\\Delta t,\\quad r_t^{safety}=-w_S\\mathbf1(F_t^{exec}\\ne F_t^{prop})",
+              "fontSize": 15,
+              "typeface": "Cambria Math",
+              "color": "#526579",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#F4F7FA",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

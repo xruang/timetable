@@ -1,0 +1,923 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/y90nupkv",
+    "id": "y90nupkv",
+    "slide": 1,
+    "layoutId": "/ppt/slideLayouts/slideLayout6.xml",
+    "layoutName": "封面_中文",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Custom 1",
+    "colors": {
+      "accent1": "#9C212F",
+      "accent2": "#F2F2F2",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "fontScheme": {
+      "name": "Cal+kai",
+      "majorFont": {
+        "latinTypeface": "Calibri",
+        "eastAsianTypeface": "华文楷体"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri",
+        "eastAsianTypeface": "华文楷体"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "Calibri",
+      "楷体"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout6.xml",
+      "name": "封面_中文",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/2",
+          "id": "2",
+          "name": "Title 1",
+          "bbox": [
+            159.35,
+            209.58,
+            960,
+            122.25
+          ],
+          "geometry": "rect",
+          "text": "请输入你的报告主题",
+          "textPreview": "请输入你的报告主题",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "verticalAlignment": "bottom"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "请输入你的报告主题",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "请输入你的"
+                },
+                {
+                  "index": 2,
+                  "text": "报告主题"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/12",
+          "id": "12",
+          "name": "Freeform 16",
+          "bbox": [
+            -2.2,
+            0,
+            254.62,
+            513.65
+          ],
+          "geometry": "custom",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "fillColor": {
+            "type": "theme",
+            "value": "accent5",
+            "transform": {
+              "opacity": 0.23529,
+              "darken": 0.25
+            }
+          },
+          "lineWidth": 0.5
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/13",
+          "id": "13",
+          "name": "Freeform 17",
+          "bbox": [
+            -0.9,
+            0,
+            254.62,
+            250.67
+          ],
+          "geometry": "custom",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "fillColor": "#0C3877",
+          "lineWidth": 0.5
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/16",
+          "id": "16",
+          "name": "Freeform 16",
+          "bbox": [
+            1027.58,
+            206.35,
+            254.62,
+            513.65
+          ],
+          "rotation": 180,
+          "geometry": "custom",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "fillColor": {
+            "type": "theme",
+            "value": "accent5",
+            "transform": {
+              "opacity": 0.23529,
+              "darken": 0.25
+            }
+          },
+          "lineWidth": 0.5
+        },
+        {
+          "order": 5,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/17",
+          "id": "17",
+          "name": "Freeform 17",
+          "bbox": [
+            1026.68,
+            469.33,
+            254.62,
+            250.67
+          ],
+          "rotation": 180,
+          "geometry": "custom",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "fillColor": "#0C3877",
+          "lineWidth": 0.5
+        },
+        {
+          "order": 6,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/20",
+          "id": "20",
+          "name": "直接连接符 22",
+          "bbox": [
+            244.24,
+            342.06,
+            802.29,
+            0
+          ],
+          "geometry": "line",
+          "lineColor": "#0C3877",
+          "lineWidth": 2
+        },
+        {
+          "order": 7,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/24",
+          "id": "24",
+          "name": "矩形: 圆角 15",
+          "bbox": [
+            446.39,
+            371.63,
+            348.71,
+            45.72
+          ],
+          "geometry": "roundRect",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          },
+          "fillColor": {
+            "type": "theme",
+            "value": "bg1",
+            "transform": {
+              "darken": 0.05
+            }
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 8,
+          "kind": "image",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/31",
+          "id": "31",
+          "name": "Graphic 26",
+          "bbox": [
+            460.53,
+            371.63,
+            44.48,
+            44.48
+          ],
+          "contentType": "image/svg+xml",
+          "asset": {
+            "assetId": "/ppt/media/image5.svg",
+            "contentType": "image/svg+xml",
+            "byteLength": 407
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image5.svg",
+            "contentType": "image/svg+xml",
+            "byteLength": 407
+          }
+        },
+        {
+          "order": 9,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/28",
+          "id": "28",
+          "name": "TextBox 27",
+          "bbox": [
+            504,
+            374.48,
+            116.33,
+            38.78
+          ],
+          "geometry": "rect",
+          "text": "报告人：",
+          "textPreview": "报告人：",
+          "resolvedTextStyle": {
+            "wrap": "none",
+            "autoFit": "resizeShapeToFitText"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "报告人：",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "报告人",
+                  "typeface": "楷体"
+                },
+                {
+                  "index": 2,
+                  "text": "：",
+                  "typeface": "楷体"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 10,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/30",
+          "id": "30",
+          "name": "Text Placeholder 29",
+          "bbox": [
+            601.93,
+            377.55,
+            116.33,
+            35.71
+          ],
+          "geometry": "rect",
+          "text": "姓名",
+          "textPreview": "姓名",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "姓名",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "姓名"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 11,
+          "kind": "image",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/32",
+          "id": "32",
+          "name": "Picture 6",
+          "bbox": [
+            527.96,
+            17.3,
+            184.72,
+            177.49
+          ],
+          "contentType": "image/png",
+          "imageCrop": {
+            "left": 0,
+            "top": 0,
+            "right": 0.7361,
+            "bottom": 0
+          },
+          "asset": {
+            "assetId": "/ppt/media/image1.png",
+            "contentType": "image/png",
+            "byteLength": 499742
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image1.png",
+            "contentType": "image/png",
+            "byteLength": 499742
+          }
+        },
+        {
+          "order": 12,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/8",
+          "id": "8",
+          "name": "矩形: 圆角 15",
+          "bbox": [
+            447.39,
+            435.7,
+            348.71,
+            45.72
+          ],
+          "geometry": "roundRect",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          },
+          "fillColor": {
+            "type": "theme",
+            "value": "bg1",
+            "transform": {
+              "darken": 0.05
+            }
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 13,
+          "kind": "image",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/33",
+          "id": "33",
+          "name": "Graphic 26",
+          "bbox": [
+            461.53,
+            435.7,
+            44.48,
+            44.48
+          ],
+          "contentType": "image/svg+xml",
+          "asset": {
+            "assetId": "/ppt/media/image5.svg",
+            "contentType": "image/svg+xml",
+            "byteLength": 407
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image5.svg",
+            "contentType": "image/svg+xml",
+            "byteLength": 407
+          }
+        },
+        {
+          "order": 14,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/10",
+          "id": "10",
+          "name": "TextBox 27",
+          "bbox": [
+            505,
+            438.55,
+            91.2,
+            38.67
+          ],
+          "geometry": "rect",
+          "text": "导师：",
+          "textPreview": "导师：",
+          "resolvedTextStyle": {
+            "wrap": "none",
+            "autoFit": "resizeShapeToFitText"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "导师：",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "导师：",
+                  "typeface": "楷体"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 15,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/11",
+          "id": "11",
+          "name": "Text Placeholder 29",
+          "bbox": [
+            602.93,
+            441.61,
+            116.33,
+            35.71
+          ],
+          "geometry": "rect",
+          "text": "姓名",
+          "textPreview": "姓名",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "姓名",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "姓名"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/6",
+          "id": "6",
+          "name": "Title Placeholder 5",
+          "bbox": [
+            88,
+            7.93,
+            868,
+            77.85
+          ],
+          "geometry": "rect",
+          "text": "请输入本页主题",
+          "textPreview": "请输入本页主题",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "请输入本页主题",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "请输入本页主题"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/7",
+          "id": "7",
+          "name": "Text Placeholder 6",
+          "bbox": [
+            12,
+            98.07,
+            1260.78,
+            578.87
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level",
+          "textPreview": "Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level",
+          "resolvedTextStyle": {
+            "vertical": 1,
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/8",
+          "id": "8",
+          "name": "Date Placeholder 7",
+          "bbox": [
+            12,
+            686.93,
+            134.4,
+            24
+          ],
+          "geometry": "rect",
+          "text": "9/27/2026",
+          "textPreview": "9/27/2026",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "9/27/2026",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "9/27/2026"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/9",
+          "id": "9",
+          "name": "Footer Placeholder 8",
+          "bbox": [
+            154.67,
+            686.93,
+            1054.33,
+            24
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          }
+        },
+        {
+          "order": 5,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/10",
+          "id": "10",
+          "name": "Slide Number Placeholder 9",
+          "bbox": [
+            1216.78,
+            686.93,
+            56,
+            24
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/65g3298r",
+      "id": "5",
+      "name": "Title 4",
+      "bbox": [
+        191.07,
+        218.61,
+        938.04,
+        122.25
+      ],
+      "text": "基于动态参数不确定性的列车节能运行控制策略研究",
+      "textPreview": "基于动态参数不确定性的列车节能运行控制策略研究",
+      "resolvedFontSize": 72,
+      "resolvedTextStyle": {
+        "anchor": 3,
+        "vertical": 1,
+        "fontSize": 80,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "center",
+        "verticalAlignment": "bottom",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.9,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "基于动态参数不确定性的列车节能"
+          },
+          {
+            "index": 2,
+            "text": "运行控制策略研究"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "基于动态参数不确定性的列车节能运行控制策略研究",
+          "runs": [
+            {
+              "index": 1,
+              "text": "基于动态参数不确定性的列车节能运行控制策略研究",
+              "fontSize": 64
+            }
+          ],
+          "bulletCharacter": "",
+          "lineSpacingPercent": 90000
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ts7md4r2",
+      "id": "6",
+      "name": "Text Placeholder 5",
+      "bbox": [
+        601.93,
+        377.55,
+        116.33,
+        35.71
+      ],
+      "text": "徐让",
+      "textPreview": "徐让",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "vertical": 1,
+        "fontSize": 24,
+        "typeface": "楷体",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "徐让"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "徐让",
+          "runs": [
+            {
+              "index": 1,
+              "text": "徐让"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 90000
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k3yl0zql",
+      "id": "3",
+      "name": "文本框 2",
+      "bbox": [
+        580.93,
+        441,
+        114.07,
+        38.67
+      ],
+      "geometry": "rect",
+      "text": "卢少锋",
+      "textPreview": "卢少锋",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "卢少锋"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "卢少锋",
+          "runs": [
+            {
+              "index": 1,
+              "text": "卢少锋"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

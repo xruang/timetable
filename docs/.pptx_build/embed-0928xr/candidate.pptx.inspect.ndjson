@@ -1,0 +1,89 @@
+{"kind":"deck","id":"pr/yv2yvr","name":"Deck"}
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"","type":"master","placeholders":[{"name":"title","type":"title","textPreview":"请输入本页主题"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"9/27/2026"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"Blank","placeholders":[{"name":"body","type":"body","textPreview":"请输入本页主题"},{"name":"title","type":"title","textPreview":"请输入本章主题"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout2.xml","name":"Two_title_two_col","placeholders":[{"name":"content placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"content placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"9/27/2026"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"},{"name":"title","type":"title","textPreview":"请输入本章主题"},{"name":"body","type":"body","textPreview":"请输入本页主题"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout3.xml","name":"Two_title_one_col","placeholders":[{"name":"title","type":"title","textPreview":"请输入本章主题"},{"name":"body","type":"body","textPreview":"请输入本页主题"},{"name":"content placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"9/27/2026"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout4.xml","name":"Title_one Column","placeholders":[{"name":"content placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"9/27/2026"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"},{"name":"title","type":"title","textPreview":"请输入本章主题"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout5.xml","name":"Title_Two_Column","placeholders":[{"name":"content placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"9/27/2026"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"},{"name":"content placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"title","type":"title","textPreview":"请输入本章主题"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout6.xml","name":"封面_中文","placeholders":[{"name":"title","type":"title","textPreview":"请输入你的报告主题"},{"name":"body","type":"body","textPreview":"姓名"},{"name":"body","type":"body","textPreview":"姓名"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout7.xml","name":"Title_en","placeholders":[{"name":"title","type":"title","textPreview":"Your Presentation Title"},{"name":"body","type":"body","textPreview":"Name"},{"name":"body","type":"body","textPreview":"xxx.xxx@xxx.com"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout8.xml","name":"目录页","placeholders":[{"name":"body","type":"body","textPreview":"第一章"},{"name":"body","type":"body","textPreview":"第二章"},{"name":"body","type":"body","textPreview":"第三章"},{"name":"body","type":"body","textPreview":"第四章"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout9.xml","name":"1_目录页","placeholders":[{"name":"body","type":"body","textPreview":"Chapter 1"},{"name":"body","type":"body","textPreview":"Chapter 2"},{"name":"body","type":"body","textPreview":"Chapter 3"},{"name":"body","type":"body","textPreview":"Chapter 4"},{"name":"body","type":"body","textPreview":"Chapter 5"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout10.xml","name":"过渡页","placeholders":[{"name":"body","type":"body","textPreview":"请输入本章主题"},{"name":"body","type":"body","textPreview":"一"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout11.xml","name":"Transition Page En","placeholders":[{"name":"body","type":"body","textPreview":"Chapter Title"},{"name":"body","type":"body","textPreview":"ONE"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout12.xml","name":"封底","placeholders":[{"name":"body","type":"body","textPreview":"姓名"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout13.xml","name":"Ending Page_En","placeholders":[{"name":"body","type":"body","textPreview":"Name"},{"name":"body","type":"body","textPreview":"xxx.xxx@xxx.com"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout14.xml","name":"空白","type":"blank","placeholders":[{"name":"dateTime","type":"dateTime","textPreview":"9/27/2026"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"slide","id":"sl/y90nupkv","slide":1,"title":"基于动态参数不确定性的列车节能运行控制策略研究","textShapes":3}
+{"kind":"textbox","id":"sh/65g3298r","slide":1,"name":"Title 4","placeholder":"title","text":"基于动态参数不确定性的列车节能运行控制策略研究","textPreview":"基于动态参数不确定性的列车节能运行控制策略研究","textChars":23,"textLines":1,"bbox":[191.07,218.61,938.04,122.25]}
+{"kind":"textbox","id":"sh/ts7md4r2","slide":1,"name":"Text Placeholder 5","placeholder":"body","text":"徐让","textPreview":"徐让","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/k3yl0zql","slide":1,"name":"文本框 2","text":"卢少锋","textPreview":"卢少锋","textChars":3,"textLines":1,"bbox":[580.93,441,114.07,38.67]}
+{"kind":"notes","id":"nt/y90nupkv","slide":1,"text":""}
+{"kind":"slide","id":"sl/hwbqtkby","slide":2,"title":"部分工作进展","textShapes":31}
+{"kind":"textbox","id":"sh/b29kza94","slide":2,"name":"标题 3","placeholder":"title","text":"部分工作进展","textPreview":"部分工作进展","textChars":6,"textLines":1,"bbox":[88,32.93,857.33,51.27]}
+{"kind":"textbox","id":"sh/a10jqpsj","slide":2,"name":"日期占位符 4","placeholder":"dateTime","text":"9/27/2026","textPreview":"9/27/2026","textChars":9,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/x4r21kru","slide":2,"name":"灯片编号占位符 5","placeholder":"slideNumber","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/w3i1sfa9","slide":2,"name":"内容占位符 6","bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/9072xkry","slide":2,"name":"文本框 1","bbox":[813.47,306,426.67,38.67]}
+{"kind":"shape","id":"sh/r65knqtk","slide":2,"name":"foundation-data","bbox":[18,132,145,520]}
+{"kind":"shape","id":"sh/q5wjelsz","slide":2,"name":"foundation-data-header","bbox":[20,134,141,40]}
+{"kind":"textbox","id":"sh/ove9o7yd","slide":2,"text":"基础数据","textPreview":"基础数据","textChars":4,"textLines":1,"bbox":[25,136,131,36]}
+{"kind":"textbox","id":"sh/9wnqhczy","slide":2,"name":"foundation-data-body","text":"既有时刻表与运行数据\n\n线路坡度、曲线、限速\n\n列车质量与牵引/制动特性","textPreview":"既有时刻表与运行数据 |  | 线路坡度、曲线、限速 |  | 列车质量与牵引/制动特性","textChars":36,"textLines":5,"bbox":[29,190,123,250]}
+{"kind":"shape","id":"sh/mtwrmxg7","slide":2,"name":"identified-resistance","bbox":[29,530,123,94]}
+{"kind":"textbox","id":"sh/nu58f2hs","slide":2,"text":"阻力参数识别结果","textPreview":"阻力参数识别结果","textChars":8,"textLines":1,"bbox":[35,536,111,38]}
+{"kind":"textbox","id":"sh/wjy9sry9","slide":2,"text":"Davis A、B、C","textPreview":"Davis A、B、C","textChars":11,"textLines":1,"bbox":[35,575,111,34]}
+{"kind":"shape","id":"sh/xk7qlczu","slide":2,"name":"upper-MAPPO","bbox":[178,98,925,170]}
+{"kind":"shape","id":"sh/ahwrqhgj","slide":2,"name":"upper-MAPPO-header","bbox":[181,101,919,44]}
+{"kind":"textbox","id":"sh/bip8jmho","slide":2,"text":"上层：多列车时刻表规划（MAPPO）","textPreview":"上层：多列车时刻表规划（MAPPO）","textChars":18,"textLines":1,"bbox":[205,103,870,40]}
+{"kind":"shape","id":"sh/cnupgny5","slide":2,"name":"上层观测状态","bbox":[198,158,292,84]}
+{"kind":"shape","id":"sh/do3q9szq","slide":2,"name":"上层观测状态-header","bbox":[199.5,159.5,289,31]}
+{"kind":"textbox","id":"sh/t8byxkn2","slide":2,"name":"上层观测状态-title","text":"上层观测状态","textPreview":"上层观测状态","textChars":6,"textLines":1,"bbox":[203,160,282,31]}
+{"kind":"textbox","id":"sh/s72xofmh","slide":2,"name":"上层观测状态-body","text":"当前到发时刻、前后车间隔\n供电分区与能量状态、上一站间运行反馈","textPreview":"当前到发时刻、前后车间隔 | 供电分区与能量状态、上一站间运行反馈","textChars":31,"textLines":2,"bbox":[205,192,278,46]}
+{"kind":"shape","id":"sh/76twva5c","slide":2,"name":"MAPPO决策模型","bbox":[515,158,245,84]}
+{"kind":"shape","id":"sh/65kfmpor","slide":2,"name":"MAPPO决策模型-header","bbox":[516.5,159.5,242,31]}
+{"kind":"textbox","id":"sh/hcvy14ne","slide":2,"name":"MAPPO决策模型-title","text":"MAPPO决策模型","textPreview":"MAPPO决策模型","textChars":9,"textLines":1,"bbox":[520,160,235,31]}
+{"kind":"textbox","id":"sh/gbmxszmt","slide":2,"name":"MAPPO决策模型-body","text":"分散 Actor    集中 Critic","textPreview":"分散 Actor    集中 Critic","textChars":21,"textLines":1,"bbox":[522,192,231,46]}
+{"kind":"shape","id":"sh/fadgzu58","slide":2,"name":"时刻表调整动作","bbox":[785,158,292,84]}
+{"kind":"shape","id":"sh/u94fqp4n","slide":2,"name":"时刻表调整动作-header","bbox":[786.5,159.5,289,31]}
+{"kind":"textbox","id":"sh/p0vy54na","slide":2,"name":"时刻表调整动作-title","text":"时刻表调整动作","textPreview":"时刻表调整动作","textChars":7,"textLines":1,"bbox":[790,160,282,31]}
+{"kind":"textbox","id":"sh/4zmxwzmp","slide":2,"name":"时刻表调整动作-body","text":"停站时间调整\n形成新的发车时刻","textPreview":"停站时间调整 | 形成新的发车时刻","textChars":15,"textLines":2,"bbox":[792,192,278,46]}
+{"kind":"shape","id":"sh/mlgvq147","slide":2,"name":"upper-to-lower-message","bbox":[315,286,300,58]}
+{"kind":"textbox","id":"sh/nmpcj6ls","slide":2,"text":"下发：目标站间运行时间、停站时间与发车约束","textPreview":"下发：目标站间运行时间、停站时间与发车约束","textChars":21,"textLines":1,"bbox":[325,291,280,48]}
+{"kind":"shape","id":"sh/onydsbmd","slide":2,"name":"lower-to-upper-message","bbox":[650,286,320,58]}
+{"kind":"textbox","id":"sh/9o7ulg3y","slide":2,"text":"反馈：实际运行时间、牵引/再生能量、可行性与安全指标","textPreview":"反馈：实际运行时间、牵引/再生能量、可行性与安全指标","textChars":26,"textLines":1,"bbox":[660,291,300,48]}
+{"kind":"shape","id":"sh/a9gvulkj","slide":2,"name":"lower-SAC","bbox":[178,360,925,310]}
+{"kind":"shape","id":"sh/ba9cn6l4","slide":2,"name":"lower-SAC-header","bbox":[181,363,919,45]}
+{"kind":"textbox","id":"sh/wbidwb29","slide":2,"text":"下层：共享 SAC 站间驾驶控制","textPreview":"下层：共享 SAC 站间驾驶控制","textChars":16,"textLines":1,"bbox":[205,365,870,40]}
+{"kind":"shape","id":"sh/xcrupg3u","slide":2,"name":"线路与列车环境","bbox":[195,424,162,122]}
+{"kind":"shape","id":"sh/id0vylkf","slide":2,"name":"线路与列车环境-header","bbox":[196.5,425.5,159,32]}
+{"kind":"textbox","id":"sh/je9crql0","slide":2,"name":"线路与列车环境-title","text":"线路与列车环境","textPreview":"线路与列车环境","textChars":7,"textLines":1,"bbox":[200,426,152,32]}
+{"kind":"textbox","id":"sh/ru5cbqd4","slide":2,"name":"线路与列车环境-body","text":"坡度、曲线、限速\n列车质量\n牵引/制动特性","textPreview":"坡度、曲线、限速 | 列车质量 | 牵引/制动特性","textChars":21,"textLines":3,"bbox":[202,459,148,83]}
+{"kind":"shape","id":"sh/69wbilcj","slide":2,"name":"状态空间","bbox":[372,424,155,122]}
+{"kind":"shape","id":"sh/tw7ud0va","slide":2,"name":"状态空间-header","bbox":[373.5,425.5,152,32]}
+{"kind":"textbox","id":"sh/svedkvup","slide":2,"name":"状态空间-title","text":"状态空间","textPreview":"状态空间","textChars":4,"textLines":1,"bbox":[377,426,145,32]}
+{"kind":"textbox","id":"sh/fypcfqdg","slide":2,"name":"状态空间-body","text":"速度、运行时间、位置\n上一时刻执行控制力\n质量、所处站间","textPreview":"速度、运行时间、位置 | 上一时刻执行控制力 | 质量、所处站间","textChars":28,"textLines":3,"bbox":[379,459,141,83]}
+{"kind":"shape","id":"sh/exgvmlcv","slide":2,"name":"SAC驾驶策略","bbox":[542,424,165,122]}
+{"kind":"shape","id":"sh/107uh0v6","slide":2,"name":"SAC驾驶策略-header","bbox":[543.5,425.5,162,32]}
+{"kind":"textbox","id":"sh/gzydovul","slide":2,"name":"SAC驾驶策略-title","text":"SAC驾驶策略","textPreview":"SAC驾驶策略","textChars":7,"textLines":1,"bbox":[547,426,155,32]}
+{"kind":"textbox","id":"sh/v2lc36dw","slide":2,"name":"SAC驾驶策略-body","text":"Actor\n双 Critic\n经验回放池","textPreview":"Actor | 双 Critic | 经验回放池","textChars":20,"textLines":3,"bbox":[549,459,151,83]}
+{"kind":"shape","id":"sh/a1cba1wb","slide":2,"name":"连续控制动作","bbox":[722,424,145,122]}
+{"kind":"shape","id":"sh/0vq1o36x","slide":2,"name":"连续控制动作-header","bbox":[723.5,425.5,142,32]}
+{"kind":"textbox","id":"sh/1wzix87i","slide":2,"name":"连续控制动作-title","text":"连续控制动作","textPreview":"连续控制动作","textChars":6,"textLines":1,"bbox":[727,426,135,32]}
+{"kind":"textbox","id":"sh/et8zmto7","slide":2,"name":"连续控制动作-body","text":"牵引 / 惰行 /\n制动力比例","textPreview":"牵引 / 惰行 / | 制动力比例","textChars":15,"textLines":2,"bbox":[729,459,131,83]}
+{"kind":"shape","id":"sh/zuh0vypc","slide":2,"name":"安全执行层","bbox":[882,424,202,122]}
+{"kind":"shape","id":"sh/c76hk361","slide":2,"name":"安全执行层-header","bbox":[883.5,425.5,199,32]}
+{"kind":"textbox","id":"sh/d8zit87m","slide":2,"name":"安全执行层-title","text":"安全执行层","textPreview":"安全执行层","textChars":5,"textLines":1,"bbox":[887,426,192,32]}
+{"kind":"textbox","id":"sh/q5ozitov","slide":2,"name":"安全执行层-body","text":"牵引/制动力、功率\n加速度与限速约束\n终点停车保护","textPreview":"牵引/制动力、功率 | 加速度与限速约束 | 终点停车保护","textChars":25,"textLines":3,"bbox":[889,459,188,83]}
+{"kind":"shape","id":"sh/r6x0rypg","slide":2,"name":"train-dynamics","bbox":[370,575,525,70]}
+{"kind":"textbox","id":"sh/w3a1wn65","slide":2,"text":"列车纵向动力学模型","textPreview":"列车纵向动力学模型","textChars":9,"textLines":1,"bbox":[382,579,501,28]}
+{"kind":"textbox","id":"sh/xoji5s7q","slide":2,"text":"牵引/制动力、Davis阻力、坡度阻力、曲线阻力","textPreview":"牵引/制动力、Davis阻力、坡度阻力、曲线阻力","textChars":24,"textLines":1,"bbox":[382,606,501,31]}
+{"kind":"shape","id":"sh/5kfipszu","slide":2,"name":"优化结果","bbox":[1118,160,145,260]}
+{"kind":"shape","id":"sh/kj6hgny9","slide":2,"name":"优化结果-header","bbox":[1119.5,161.5,142,42]}
+{"kind":"textbox","id":"sh/jix0niho","slide":2,"name":"优化结果-title","text":"优化结果","textPreview":"优化结果","textChars":4,"textLines":1,"bbox":[1123,162,135,42]}
+{"kind":"textbox","id":"sh/ihozedgj","slide":2,"name":"优化结果-body","text":"优化时刻表\n（发车时间）\n\n牵引能耗\n\n再生制动利用率","textPreview":"优化时刻表 | （发车时间） |  | 牵引能耗 |  | 再生制动利用率","textChars":27,"textLines":6,"bbox":[1125,205,131,211]}
+{"kind":"notes","id":"nt/hwbqtkby","slide":2,"text":"本页加入可编辑的SAC上下层课题实现结构图。按照用户要求，模块之间未添加箭头或连接线。"}
+{"kind":"slide","id":"sl/ofy9wn61","slide":3,"title":"徐让","textShapes":3}
+{"kind":"textbox","id":"sh/obq90bml","slide":3,"name":"文本占位符 5","placeholder":"body","text":"徐让","textPreview":"徐让","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/cza94vmx","slide":3,"name":"日期占位符 1","placeholder":"dateTime","text":"9/27/2026","textPreview":"9/27/2026","textChars":9,"textLines":1,"bbox":[0,686.93,134.4,24]}
+{"kind":"textbox","id":"sh/d0jax03i","slide":3,"name":"灯片编号占位符 2","placeholder":"slideNumber","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[1224,686.93,56,24]}
+{"kind":"notes","id":"nt/ofy9wn61","slide":3,"text":""}

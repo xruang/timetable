@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "experiment_name": "lower_ddpg_baseline",
+  "description": "Lower-only DDPG comparison using fixed real interstation times.",
+  "parameters": {
+    "experiment_stage": "lower",
+    "lower_algorithm": "ddpg",
+    "share_lower_continuous": true,
+    "lower_policy_mode": "fresh",
+    "lower_bc_episodes": 0,
+    "lower_episodes": 5000,
+    "lower_log_interval": 10,
+    "lower_plot_interval": 100,
+    "lower_target_span": 0,
+    "lower_arrival_tolerance": 0.5,
+    "runtime_adjustment_span": 0,
+    "dwell_adjustment_span": 10,
+    "up_trains": 6,
+    "down_trains": 6,
+    "seed": 7,
+    "lower_device": "cpu"
+  }
+}

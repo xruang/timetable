@@ -1,0 +1,3 @@
+﻿train_name,episodes,moving_average_window,convergence_window,initial_reward_per_km_moving_average,final_reward_per_km_moving_average,final_window_std,final_window_slope
+Up Train 1,1,1,1,-169.24701454592625,-169.24701454592625,0.0,0.0
+Down Train 1,1,1,1,-41.19675967410122,-41.19675967410122,0.0,0.0
