@@ -1,9 +1,30 @@
+# Python 缓存
 __pycache__/
 *.py[cod]
 .pytest_cache/
 
-# New experiments are reproducible from configs; generated artifacts stay local.
-results/
-server_logs/
-SAC_server_bundle.zip
+# Python 环境
 .venv/
+venv/
+
+# 临时实验目录
+tmp/
+tmp_*/
+server_logs/
+
+# 训练输出
+results/
+logs/
+*.log
+
+# 模型与检查点
+*.pt
+*.pth
+*.ckpt
+
+# 自动生成的服务器包
+SAC_server_bundle.zip
+
+# 编辑器配置
+.vscode/
+.idea/

@@ -1,0 +1,2 @@
+﻿train_name,episodes,phase_filter,moving_average_window,convergence_window,initial_reward_per_km_moving_average,final_reward_per_km_moving_average,final_window_std,final_window_slope
+Shared SAC lower policy,20000,exclude_behavior_clone_pretrain,20,50,-20.105954301690417,-4.821379459422859,0.4852122887289868,-0.006802173329701144

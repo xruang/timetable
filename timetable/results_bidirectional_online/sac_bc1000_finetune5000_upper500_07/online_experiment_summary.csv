@@ -1,0 +1,2 @@
+﻿up_train_count,down_train_count,station_dwell_s,initial_headway_s_each_direction,minimum_headway_s,lower_algorithm,traction_kwh,regenerative_kwh,matched_regenerative_kwh,regenerative_utilization,normalized_weighted_objective,runtime_adjustment_span_s,dwell_adjustment_span_s,rollout_cache_quantum_s,rollout_cache_hits,rollout_cache_misses,rollout_cache_size
+6,6,60.0,480.0,120.0,sac,10709.560472420388,3957.256569253182,1640.5694919808784,0.414572435036854,0.2928937313351202,0.5,10.0,0.1,20792,2008,2008

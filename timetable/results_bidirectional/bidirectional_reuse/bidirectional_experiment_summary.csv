@@ -1,0 +1,2 @@
+﻿up_train_count,down_train_count,station_dwell_s,initial_headway_s_each_direction,minimum_headway_s,grid_energy_kwh,traction_kwh,regenerative_kwh,matched_regenerative_kwh,regenerative_utilization,normalized_weighted_objective,traction_energy_weight,regenerative_utilization_weight,running_time_adjustment_bound_s,running_time_adjustment_step_s
+6,6,60.0,480.0,120.0,8172.258779532571,9687.411499599173,3342.3963173193624,1594.8976000701073,0.4771718996355382,0.26139840499945866,0.5,0.5,0.5,0.1
